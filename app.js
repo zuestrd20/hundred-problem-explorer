@@ -2,7 +2,7 @@
 (()=>{
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const key='hundred-problems-favorites-v1';let data=[],visible=[],favorites=new Set(),selected=new Set(),toastTimer,lastOpened=null,returnFocus=null;
-const filters=['category','audience','scope','feasibility'];if(window.matchMedia?.('(max-width:640px)').matches)$('#advancedFilters').open=false;
+const filters=['category','audience','scope','feasibility'];const narrow=window.matchMedia?.('(max-width:640px)');if(narrow?.matches)$('#advancedFilters').open=false;narrow?.addEventListener('change',event=>{$('#advancedFilters').open=!event.matches;});
 function notice(text){$('#storageNotice').hidden=false;$('#storageNotice').textContent=text}
 function loadFavorites(){try{const raw=localStorage.getItem(key);if(raw!==null){const parsed=JSON.parse(raw);if(!Array.isArray(parsed))throw Error('format');favorites=new Set(parsed.filter(x=>Number.isInteger(x)&&data.some(p=>p.id===x)));}}catch{notice('無法讀取原有收藏。這次仍可收藏；若瀏覽器不允許儲存，重新整理後不會保留。')}}
 function saveFavorites(){try{localStorage.setItem(key,JSON.stringify([...favorites]));}catch{notice('瀏覽器目前不允許儲存。收藏只會保留在這次頁面，重新整理後會消失。')}}
