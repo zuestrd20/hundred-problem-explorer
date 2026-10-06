@@ -1,0 +1,2786 @@
+[
+  {
+    "id": 1,
+    "title": "上課查資料時被手機通知帶走",
+    "category": "教育學習",
+    "audience": "需要用個人裝置上課的中學生與授課教師",
+    "audienceType": "教育工作者",
+    "scope": "地方",
+    "problem": "學生必須開啟裝置查資料或作答，卻同時接到社群通知；教師難以兼顧教學用途與分心風險。",
+    "evidence": "PISA 2022 顯示，OECD 平均約三成學生表示在多數或每堂數學課中，會因使用數位裝置而分心；禁用手機的學校也仍有學生頻繁使用手機。",
+    "sources": [
+      {
+        "title": "PISA 2022 Results (Volume II)：Investments in a solid foundation for learning and well-being",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/en/publications/2023/12/pisa-2022-results-volume-ii_222a5ef6/full-report/component-12.html",
+        "published": "2023",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "Learning time and disciplinary climate",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/en/topics/learning-time-and-disciplinary-climate.html",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "手機勿擾模式、學校使用規範、教師指定教材與課堂活動。",
+    "gap": "待驗證假設：比起單純全面禁用，配合每段課程的「何時開、何時收」提示，可能更容易遵守。",
+    "mvp": "製作教師可切換的投影計時卡：查資料、提交、收起裝置三種階段，學生自行開啟勿擾。",
+    "test": "建議測試：與兩位教師試用兩週；以匿名自報及教師抽樣觀察比較，非學習切換次數下降至少 20%，且作業完成率未下降才繼續。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：不需讀取學生螢幕或安裝監控，只需簡單網頁與教學流程。",
+    "caveat": "跨國自報資料不能證明手機造成低分；先取得學校及必要監護人同意，不收集瀏覽紀錄或個別學生排名。"
+  },
+  {
+    "id": 2,
+    "title": "學生把看似專業的網頁當證據",
+    "category": "教育學習",
+    "audience": "要撰寫專題報告的高中生與資訊素養教師",
+    "audienceType": "教育工作者",
+    "scope": "地方",
+    "problem": "學生找到外觀正式的文章或影片後，沒有查作者背景、原始出處與其他來源，就把它放進報告。",
+    "evidence": "Stanford 2019 年研究讓 3,446 名美國高中生完成查證任務；過半受測者把標示錯誤的投票影片視為有力證據。",
+    "sources": [
+      {
+        "title": "High school students are unprepared to judge the credibility of information on the internet",
+        "publisher": "Stanford University",
+        "url": "https://news.stanford.edu/stories/2019/11/high-school-students-unequipped-spot-fake-news",
+        "published": "2019-11-18",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "資訊素養課、圖書館查證指引、橫向閱讀與原始來源搜尋。",
+    "gap": "待驗證假設：把查證步驟放在學生正在寫的引用旁，可能比課後另讀一份檢核表更容易落實。",
+    "mvp": "做一張報告證據卡，要求填入原始發布者、外部交叉核對連結、日期與仍不確定之處。",
+    "test": "建議測試：請一班學生檢查六則全新素材；採用證據卡後，正確指出來源問題的比例提高至少 20 個百分點，且不增加無根據否定才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：介面容易；真假素材、評分規準與遷移測試需要教師設計。",
+    "caveat": "研究資料來自 2018–2019 年美國，不能當作目前台灣學生比例；工具不自動判定言論真假，也不蒐集政治立場。"
+  },
+  {
+    "id": 3,
+    "title": "有進修意願卻湊不出連續時間",
+    "category": "教育學習",
+    "audience": "兼顧工作或家庭責任的成人學習者",
+    "audienceType": "個人",
+    "scope": "個人",
+    "problem": "成人想完成一門技能課，但課程要求固定且連續的學習時段，與輪班、臨時工作或照顧安排衝突。",
+    "evidence": "OECD 2025 報告以 2023 成人技能調查指出：在遭遇進修障礙者中，48% 把工作或家庭造成的時間限制列為最主要障礙。",
+    "sources": [
+      {
+        "title": "Trends in Adult Learning: New Data from the 2023 Survey of Adult Skills",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/trends-in-adult-learning_f0d8514f/ec0624a6-en.pdf",
+        "published": "2025-07-08",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "非同步課程、短課程、行事曆、雇主培訓時段。",
+    "gap": "待驗證假設：先顯示每單元最低可完成時間、可中斷點及補課路徑，可能有助於判斷是否真的排得進生活。",
+    "mvp": "和一位講師把既有四週課程標成 10–20 分鐘可中斷單元，提供可列印的每週選課時段表。",
+    "test": "建議測試：邀 10 位有時間障礙的成人試四週；至少 7 人完成原訂核心單元，且平均每週補排不超過 15 分鐘才擴大。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：排程本身簡單，但教材必須適合切分，不能假裝能解決工時與照顧資源不足。",
+    "caveat": "48% 的分母是遇到障礙者，不是所有成人；各國差異很大，原型不保證能增加可支配時間。"
+  },
+  {
+    "id": 4,
+    "title": "成人難判斷進修課是否適合自己",
+    "category": "教育學習",
+    "audience": "希望轉換技能但不熟悉課程名稱的成人",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "課程頁面有名稱與宣傳，學習者卻難比較先備能力、實際作業、上課時段與自己想完成的工作。",
+    "evidence": "OECD 成人學習報告記錄了找不到合適課程、缺乏先備條件及時間地點不便等障礙；這幾項合計占遭遇障礙者主要原因的 14%。",
+    "sources": [
+      {
+        "title": "Trends in Adult Learning: New Data from the 2023 Survey of Adult Skills",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/trends-in-adult-learning_f0d8514f/ec0624a6-en.pdf",
+        "published": "2025-07-08",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "培訓諮詢、課程目錄、試聽、課綱與先備測驗。",
+    "gap": "待驗證假設：把課程轉成共同欄位，並提供一個真實入門任務，可能減少只憑課名報名的錯配。",
+    "mvp": "先人工整理同一技能領域的 20 門公開課程，列出先備能力、範例任務、投入時數與原始課綱連結。",
+    "test": "建議測試：請 8 位成人用原網站及比較表各選一次；至少 6 人能更準確解釋適合原因，且沒有把未知條件誤判為符合才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：人工小型目錄即可驗證，不需推薦演算法或串接招生系統。",
+    "caveat": "14% 包含多種障礙，不能全歸因於資訊難找；不保證錄取、證照資格或就業，課程條件仍以提供者為準。"
+  },
+  {
+    "id": 5,
+    "title": "現成教案仍需大量修改才上得了課",
+    "category": "教育學習",
+    "audience": "使用既定教材的中小學教師",
+    "audienceType": "教育工作者",
+    "scope": "地方",
+    "problem": "教師拿到完整教案後，仍要縮短流程、補充學生尚未掌握的內容，又需避免刪掉原本的學習目標。",
+    "evidence": "RAND 2020 美國教師調查直接記錄教案修改；英語、數學、科學受訪教師都會為了補強學習或配合課堂時間修改教材。",
+    "sources": [
+      {
+        "title": "American Instructional Resources Surveys: 2020 Technical Documentation and Survey Results",
+        "publisher": "RAND Corporation",
+        "url": "https://www.rand.org/content/dam/rand/pubs/research_reports/RRA100/RRA134-4/RAND_RRA134-4.pdf",
+        "published": "2020",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "教師共備、出版社教師手冊、可編輯教材、校內教案庫。",
+    "gap": "待驗證假設：共享「為什麼修改、保留哪個目標、實際耗時」的差異紀錄，可能比只分享成品教案更容易重用。",
+    "mvp": "替一個年級的一個單元做教案版本卡，標記可選活動、必要步驟、時間與教師修改理由。",
+    "test": "建議測試：請 5 位教師備同一單元；至少 4 人備課時間減少 20%，且共同審查確認沒有漏掉核心目標才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：版本卡容易製作，教學品質需要任課教師共同審查。",
+    "caveat": "研究為美國 2019–2020 學年，不能推算本地教師工時；不複製未授權教材，也不以學生個資產生教案。"
+  },
+  {
+    "id": 6,
+    "title": "教師缺少可直接套用的課堂 AI 規則",
+    "category": "教育學習",
+    "audience": "需要回應學生 AI 使用問題的教師與課程負責人",
+    "audienceType": "教育工作者",
+    "scope": "地方",
+    "problem": "同一份作業中，學生不清楚哪些 AI 協助可用、如何揭露，以及哪些內容必須自己查證，教師需反覆個別解釋。",
+    "evidence": "UNESCO 2023 對逾 450 所學校及大學的調查發現，不到一成有生成式 AI 的正式指引或機構政策。",
+    "sources": [
+      {
+        "title": "UNESCO: Governments must quickly regulate Generative AI in schools",
+        "publisher": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/unesco-governments-must-quickly-regulate-generative-ai-schools?hub=401",
+        "published": "2023-09-07",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "校級 AI 指引、課綱聲明、教師培訓、引用及使用揭露規範。",
+    "gap": "待驗證假設：把校級原則轉成每份作業的具體允許範例與查證要求，可能比單一通則更易理解。",
+    "mvp": "提供一頁作業 AI 使用卡：允許用途、禁止用途、揭露格式、查證責任與詢問窗口，由教師逐份核定。",
+    "test": "建議測試：邀 3 位教師及 20 位學生判斷八個作業案例；使用卡片後至少 85% 判斷與教師標準一致才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：主要是內容與表單設計，先不接入任何 AI 服務。",
+    "caveat": "這是 2023 年歷史基線，不代表 2026 年仍少於一成；須依學校現行規範，不能用 AI 偵測分數直接指控作弊。"
+  },
+  {
+    "id": 7,
+    "title": "反覆重讀卻不知道自己是否真的記住",
+    "category": "教育學習",
+    "audience": "準備內容型考試的大學生與成人學習者",
+    "audienceType": "個人",
+    "scope": "個人",
+    "problem": "學習者覺得筆記越看越熟，卻未在不看答案時回想；直到考試才發現熟悉感不等於能提取知識。",
+    "evidence": "Karpicke 等人的 177 名大學生調查發現，重讀比自行提取更常被採用；IES 指南另支持以間隔複習和小測驗強化學習。",
+    "sources": [
+      {
+        "title": "Metacognitive strategies in student learning: Do students practise retrieval when they study on their own?",
+        "publisher": "Memory；作者於 Purdue University 公開的論文",
+        "url": "https://learninglab.psych.purdue.edu/downloads/2009/2009_Karpicke_Butler_Roediger.pdf",
+        "published": "2009-05-01",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "Organizing Instruction and Study to Improve Student Learning",
+        "publisher": "Institute of Education Sciences / What Works Clearinghouse",
+        "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+        "published": "2007",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "抽認卡、題庫、間隔複習、學習策略教學。",
+    "gap": "待驗證假設：在每次開啟筆記前先回想三題，可能比要求另外建立完整題庫更容易開始。",
+    "mvp": "製作本機學習頁：先顯示教師核定的三個提示，學生回想後才展開原筆記，七天後再出現同題。",
+    "test": "建議測試：請 12 位成人以兩組相近內容交叉試用；一週後延遲測驗提高至少 10 個百分點且使用時間相近，才進行更大研究。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：固定題目與本機儲存即可驗證，不需自動生成題目。",
+    "caveat": "原始行為調查較舊且樣本小，不能推論所有學生；小型試驗只看初步訊號，不可宣稱保證提分。"
+  },
+  {
+    "id": 8,
+    "title": "課程變更訊息沒有清楚顯示影響",
+    "category": "教育學習",
+    "audience": "同時修讀多門課的大學生與課程行政人員",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "上課地點、教學安排或繳交日期改動後，學生需要重新核對舊課綱與新公告，才能知道哪一項行動要改。",
+    "evidence": "英格蘭 2025 NSS 的課程組織與管理正向回應為 78.5%；該主題問卷明確詢問課程安排及教學變更如何被通知。",
+    "sources": [
+      {
+        "title": "UK students make their voices heard in the National Student Survey 2025",
+        "publisher": "Office for Students",
+        "url": "https://www.officeforstudents.org.uk/news-blog-and-events/press-and-media/uk-students-make-their-voices-heard-in-the-national-student-survey-2025/",
+        "published": "2025-07-09",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "The National Student Survey 2025：完整問卷",
+        "publisher": "Office for Students",
+        "url": "https://www.officeforstudents.org.uk/media/mdihtxbw/nss-2025-questionnaire.pdf",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "校務系統、學習平台公告、課表、電子郵件與行事曆。",
+    "gap": "待驗證假設：公告若固定列出「舊值、新值、生效日期、受影響對象」，可能降低變更理解錯誤。",
+    "mvp": "先為一門課建立變更紀錄模板與單一訂閱頁，每則更新保留原始公告連結與教師確認欄。",
+    "test": "建議測試：以 10 則模擬公告請 15 位學生找出下一步；答對率至少 90%，且相較原公告查找時間縮短 30% 才試行。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：可先手動維護，避免錯誤自動同步正式課表。",
+    "caveat": "78.5% 是課程組織與管理的主題整體評分，不能把反向比例當作變更通知困難或漏看公告的需求量；具體情境與原因仍待本校訪談確認，正式時間以學校公告為準。"
+  },
+  {
+    "id": 9,
+    "title": "分組作業到最後才發現分工失衡",
+    "category": "教育學習",
+    "audience": "有數週團體專題的大學生與授課教師",
+    "audienceType": "教育工作者",
+    "scope": "地方",
+    "problem": "組員各自完成片段，卻缺少中途整合與貢獻討論；到交件前才發現工作重疊、缺漏或少數人包辦。",
+    "evidence": "CMU 教學中心把協調成本、搭便車與個人學習難評估列為分組作業的常見挑戰，並建議安排中途反思與整合時間。",
+    "sources": [
+      {
+        "title": "What are the challenges of group work and how can I address them?",
+        "publisher": "Carnegie Mellon University Eberly Center",
+        "url": "https://www.cmu.edu/teaching/designteach/design/instructionalstrategies/groupprojects/challenges.html",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "分工表、共享文件、同儕互評、教師面談及專題里程碑。",
+    "gap": "待驗證假設：中途提供低壓的「我完成什麼、卡在哪、需要誰」檢查，可能比期末才互評更能修正失衡。",
+    "mvp": "為四人組設三次五分鐘檢查表與整合清單，只讓組員及教師看到，不做自動排名。",
+    "test": "建議測試：四個小組試一個專題；至少三組在截止前一週辨識並處理一個實際缺漏，且學生認為填寫負擔可接受才繼續。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：用表單與流程卡就能試，不需分析聊天或鍵盤行為。",
+    "caveat": "來源是大學教學實務指引，非問題普及率調查；互評可能受人際關係影響，不能直接決定成績。"
+  },
+  {
+    "id": 10,
+    "title": "學生開學後才發現教材取得成本",
+    "category": "教育學習",
+    "audience": "需要購買教材或作業平台存取碼的大學生",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "學生在選課後才知道必買教材、存取碼與版本限制，難以及時比較圖書館、合法二手或開放教材選項。",
+    "evidence": "Student PIRGs 於 2025 年調查、2026 年發布的報告中，66% 受訪者曾因價格跳過購書；另有學生反映希望開學前知道必需教材與成本。",
+    "sources": [
+      {
+        "title": "Fixing the Broken Textbooks Market: Fourth Edition",
+        "publisher": "Student PIRGs",
+        "url": "https://studentpirgs.org/assets/uploads/2026/02/Fixing-the-Broken-Textbooks-Market-Fourth-Edition.pdf",
+        "published": "2026",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "圖書館指定參考書、二手交換、租書、開放教科書與校方教材清單。",
+    "gap": "待驗證假設：在選課前集中顯示已確認的必要教材、可接受版本及合法替代方式，可能讓學生更早安排取得方式。",
+    "mvp": "和一個系所人工整理 15 門課的教材卡，讓教師確認「必買／可借／可替代」，連回官方書目。",
+    "test": "建議測試：請 10 位學生完成三個教材取得情境；至少 8 人找到正確合法選項，且沒有誤買不能交作業的版本才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：清單技術簡單，但版本、存取碼與替代教材須逐課向教師確認。",
+    "caveat": "美國倡議組織的自願樣本不代表所有學生或台灣市場；不提供盜版、不保證價格，也不把一般教材當作可替代作業授權。"
+  },
+  {
+    "id": 11,
+    "title": "閱讀落差難轉成可教的下一步",
+    "category": "教育學習",
+    "audience": "需要安排閱讀補強的小學教師",
+    "audienceType": "教育工作者",
+    "scope": "地方",
+    "problem": "教師知道學生閱讀表現落後，但總分無法直接指出下一次小組教學應練哪一種理解策略。",
+    "evidence": "美國 2024 NAEP 四年級閱讀中，40% 學生落在 NAEP Basic 以下；官方同時呈現不同題型與閱讀技能的表現示例。",
+    "sources": [
+      {
+        "title": "2024 NAEP Reading: National Trends and Student Skills",
+        "publisher": "National Center for Education Statistics",
+        "url": "https://www.nationsreportcard.gov/reports/reading/2024/g4_8/national-trends/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "課堂形成性評量、閱讀面談、分組補強與教師設計的理解題。",
+    "gap": "待驗證假設：讓教師把少量錯題依「找到資訊、整合內容、提出證據」整理，可能比只追蹤總分更便於安排下次教學。",
+    "mvp": "與一位閱讀教師建立 12 道授權短文題及人工標記表，每週只輸出小組層級的待教技能清單。",
+    "test": "建議測試：兩位教師獨立標記 20 份去識別答案；分類一致率達 80%，且教師能據此準備一節補強課，才進入學生試用。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀評估：測驗效度與補強建議需閱讀教育專業，原型不能自行診斷學生能力。",
+    "caveat": "NAEP Basic 不等於年級合格線，不能把此比例解讀為不識字；美國英語評量不能直接套到繁體中文閱讀。"
+  },
+  {
+    "id": 12,
+    "title": "分數會套公式卻誤判大小",
+    "category": "教育學習",
+    "audience": "學習分數概念的國小高年級學生與教師",
+    "audienceType": "教育工作者",
+    "scope": "地方",
+    "problem": "學生把整數大小規則搬到分數，看到分母較大便認為整個分數較大，之後運算也難判斷答案是否合理。",
+    "evidence": "IES 分數教學指南明列把 3/8 看成大於 3/5 等迷思，並建議以數線與分數作為數的概念支撐教學。",
+    "sources": [
+      {
+        "title": "Developing Effective Fractions Instruction for Kindergarten Through 8th Grade",
+        "publisher": "Institute of Education Sciences / What Works Clearinghouse",
+        "url": "https://ies.ed.gov/ncee/WWC/Docs/PracticeGuide/fractions_pg_093010.pdf",
+        "published": "2010",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "分數條、數線、操作教具、教師提問與概念診斷題。",
+    "gap": "待驗證假設：讓學生先預測、再操作同一條數線並解釋差異，可能比只提供對錯回饋更能暴露迷思。",
+    "mvp": "做 10 道分數比較互動題，每題先選答案，再拖曳到數線並用一句話解釋，由教師審閱題目。",
+    "test": "建議測試：由教師帶領 12 名學生試用；一週後在未見過的題目中，同類迷思錯誤減少至少三分之一才進一步驗證。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：互動不難，但視覺比例、提示順序與題目要有數學教育審查。",
+    "caveat": "指南發布於 2010 年，是研究與實務建議綜整；原型成效尚未驗證，不可把一種錯誤判成固定能力標籤。"
+  },
+  {
+    "id": 13,
+    "title": "自主學習計畫排好了卻啟動不了",
+    "category": "教育學習",
+    "audience": "需要在課外自行完成學習的中學生",
+    "audienceType": "個人",
+    "scope": "個人",
+    "problem": "學生能列出待辦與讀書時段，卻在沒有教師當場引導時，難以開始第一步並持續完成。",
+    "evidence": "PISA 2022 資料中，OECD 平均 69% 學生對自主排程有信心，但對自行激勵做功課有信心的只有 58%；題目以可能再停課為情境。",
+    "sources": [
+      {
+        "title": "Students’ readiness for self-directed learning：PISA 2022 Results (Volume V)",
+        "publisher": "OECD",
+        "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-v_c2e44201-en/full-report/component-17.html",
+        "published": "2024-11-13",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "學習計畫表、導師檢查、同儕共讀、作業拆解與學習反思。",
+    "gap": "待驗證假設：把「讀一章」改成可立即完成的首個五分鐘行動，搭配事後反思，可能縮小排程與實際開始的落差。",
+    "mvp": "做紙本或本機「下一小步」卡：開始時間、五分鐘動作、遇到困難的求助方式與結束後回顧。",
+    "test": "建議測試：與教師及 10 名自願學生試兩週；實際開始的預定學習時段比例提高至少 20 個百分點，且未增加催促負擔才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：先驗證行為流程即可，不需學生成績預測或自動提醒轟炸。",
+    "caveat": "自評信心不等於實際能力；停課情境與一般課後情境不同，需在地驗證並取得必要同意。"
+  },
+  {
+    "id": 14,
+    "title": "知道資料存在卻找不到正確入口",
+    "category": "工作流程",
+    "audience": "需要跨部門找文件的知識工作者",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "員工知道某份規範或決策已經有人寫過，卻不知道在哪個資料夾、聊天串或哪位同事手上。",
+    "evidence": "Atlassian 2024 研究頁記錄，55% 知識工作者即使認識很多同事，仍覺得難以找到需要的資訊。",
+    "sources": [
+      {
+        "title": "State of Teams 2024",
+        "publisher": "Atlassian",
+        "url": "https://www.atlassian.com/blog/state-of-teams-2024",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "企業搜尋、共享文件庫、團隊知識庫、常用連結與同事詢問。",
+    "gap": "待驗證假設：針對一組高頻問題建立有人負責維護的「問題→權威來源」索引，可能比再加一個全站搜尋框更實用。",
+    "mvp": "先收集一個團隊 30 個重複問題，逐項連到已核准文件，標明負責人及最後確認日期。",
+    "test": "建議測試：讓 8 位同事回答 10 個工作問題；正確來源命中率至少 90%，查找中位時間縮短 30% 才擴大。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：人工索引可先驗證高頻需求，不必取得整個公司的資料權限。",
+    "caveat": "供應商自報研究存在選樣與商業偏差；需遵守原文件權限，不能把受限內容複製到公開索引。"
+  },
+  {
+    "id": 15,
+    "title": "不同團隊做到一半才發現重複",
+    "category": "工作流程",
+    "audience": "跨部門承接相似專案的團隊",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "兩組人各自研究相同主題或製作相似成果，直到已有大量投入才發現彼此可以共用工作。",
+    "evidence": "Atlassian 2024 研究頁中，50% 知識工作者表示曾在做專案後才發現另一團隊也做同一件事。",
+    "sources": [
+      {
+        "title": "State of Teams 2024",
+        "publisher": "Atlassian",
+        "url": "https://www.atlassian.com/blog/state-of-teams-2024",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "專案組合清單、跨部門例會、共享路線圖與提案審查。",
+    "gap": "待驗證假設：新專案用一致格式先登記問題、產物及負責人，可能讓相近工作更早被人工辨識。",
+    "mvp": "建立一個只含 20 個活躍專案的簡短公告板，支援按使用者、問題和產物搜尋，保留聯絡窗口。",
+    "test": "建議測試：兩個團隊試四週；若至少發現兩組可重用的實際工作，且每案維護低於五分鐘／週才繼續。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：不必判斷所有語義相似專案，先用人工分類與固定欄位。",
+    "caveat": "相似不等於重複浪費；不同團隊可能需要獨立驗證，不可未經負責人判斷就合併或取消專案。"
+  },
+  {
+    "id": 16,
+    "title": "跨團隊的進度欄位說不清同一件事",
+    "category": "工作流程",
+    "audience": "需整合多個團隊交付狀態的協調者",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "一隊用「完成」表示已寫好，另一隊表示已審核，彙整者必須逐一詢問才能確認下游工作能否開始。",
+    "evidence": "Atlassian 2024 研究頁記錄，56% 知識工作者認為各團隊計畫及追蹤工作的方式不同，使合作困難。",
+    "sources": [
+      {
+        "title": "State of Teams 2024",
+        "publisher": "Atlassian",
+        "url": "https://www.atlassian.com/blog/state-of-teams-2024",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "共同專案模板、狀態會議、工作管理系統與交付定義。",
+    "gap": "待驗證假設：保留各隊原流程，但增加少量共同交付欄位，可能比要求所有人換系統更容易採用。",
+    "mvp": "選兩個團隊，建立六欄交付卡：產物、負責人、承諾時間、可供下游使用否、阻礙、原始連結。",
+    "test": "建議測試：用 15 個真實交付項目試兩週；彙整時補問次數減半，且沒有把未驗收項目誤標可用才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：介面容易，但必須協商共同定義並防止變成重複填報。",
+    "caveat": "來源不能證明某一工具造成問題；初期只做人工匯入，任何狀態修改由原任務負責人確認。"
+  },
+  {
+    "id": 17,
+    "title": "會議結束卻沒有明確下一步",
+    "category": "工作流程",
+    "audience": "主持週會或專案討論的知識工作者",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "大家對討論內容有印象，但散會後沒有一致的行動、負責人與完成條件，下一次會議又要重問。",
+    "evidence": "Microsoft 2023 Work Trend Index 的受訪者中，55% 表示會議結束時的下一步不清楚。",
+    "sources": [
+      {
+        "title": "2023 Work Trend Index: Annual Report",
+        "publisher": "Microsoft",
+        "url": "https://info.microsoft.com/rs/157-GQE-382/images/SREVM16705-CNTNT.pdf",
+        "published": "2023",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "會議紀錄、行動清單、指派任務與主持人結尾確認。",
+    "gap": "待驗證假設：在散會前強制留兩分鐘由當事人口頭確認，可能比會後自動產生一長篇摘要更能減少漏接。",
+    "mvp": "做一頁結尾卡：決定、下一步、接受此工作的人、期限、未決事項；主持人手動記錄並讓相關人確認。",
+    "test": "建議測試：一個團隊連續試六次會議；至少 90% 行動有承接人，且隔日抽問的理解一致率達 85% 才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：表單與主持流程足以起步，不需要錄音或轉寫。",
+    "caveat": "調查來自 Microsoft 委託的跨國樣本，未證明任何產品可解決問題；不能自動替未同意者承諾工作或期限。"
+  },
+  {
+    "id": 18,
+    "title": "晚到會議的人很難補上決策脈絡",
+    "category": "工作流程",
+    "audience": "跨專案開會、偶爾晚加入的團隊成員",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "成員晚加入十幾分鐘後，只聽到正在討論的選項，缺少已排除方案與目前待決問題，容易重提已討論事項。",
+    "evidence": "Microsoft 2023 調查中，57% 受訪者認為晚加入會議後很難追上進度，56% 覺得難以整理會議發生了什麼。",
+    "sources": [
+      {
+        "title": "2023 Work Trend Index: Annual Report",
+        "publisher": "Microsoft",
+        "url": "https://info.microsoft.com/rs/157-GQE-382/images/SREVM16705-CNTNT.pdf",
+        "published": "2023",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "共享議程、即時筆記、錄影、逐字稿與會後摘要。",
+    "gap": "待驗證假設：會中即時維護「目前問題、已決定、待決定」三欄，可能比重新看錄影更快恢復情境。",
+    "mvp": "用共享文件做三欄脈絡板，每個討論段落只加一行，連到需要查看的原始材料。",
+    "test": "建議測試：在五場自願試驗會議中，晚到者用兩分鐘閱讀；至少八成能正確指出目前待決問題，且筆記維護低於每十分鐘一分鐘才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：手動共享頁即可測試，不需收集音訊。",
+    "caveat": "晚到的原因與會議型態不同；資料必須只對原本獲准參會者可見，摘要也需保留不確定與異議。"
+  },
+  {
+    "id": 19,
+    "title": "高訊息量工作者難保住一段專注時間",
+    "category": "工作流程",
+    "audience": "需撰寫、分析又得回應同事的工作者",
+    "audienceType": "個人",
+    "scope": "個人",
+    "problem": "工作者預留了撰寫或分析時間，卻接連收到郵件、聊天及臨時邀請，不知道哪些能等、哪些真的需立即處理。",
+    "evidence": "Microsoft 2025 遙測中，收到通知量最高的前 20% 使用者，核心工時平均約每兩分鐘有一次會議邀請、郵件或聊天提示。",
+    "sources": [
+      {
+        "title": "Breaking down the infinite workday",
+        "publisher": "Microsoft WorkLab",
+        "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday",
+        "published": "2025-06-17",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "勿擾模式、專注時段、通知規則、輪值窗口與團隊回覆約定。",
+    "gap": "待驗證假設：先和團隊約定緊急通道及可延後回覆時段，可能比個人關閉所有通知更能安心專注。",
+    "mvp": "用一週紙本時段表及三種緊急度範例建立回覆約定，保留一個人工值班窗口，不自動判讀訊息。",
+    "test": "建議測試：六位自願同事試兩週；每人每週多完成至少三段 45 分鐘專注工作，且沒有漏掉約定的緊急事件才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：主要工作是協調回覆預期，不需監控員工活動。",
+    "caveat": "兩分鐘數字不適用所有員工；遙測排除教育及歐盟租戶，提示不等於已打斷注意力。不得據此評分員工生產力。"
+  },
+  {
+    "id": 20,
+    "title": "跨時區會議把不便固定給同一群人",
+    "category": "工作流程",
+    "audience": "分布在兩個以上時區的合作團隊",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "排會者找到一個表面上的空檔，卻忽略對另一地同事是清晨或深夜；週期會議使同一群人反覆承擔不便。",
+    "evidence": "Microsoft 2025 遙測指出，30% 會議跨時區，晚上八點後開始的會議比前一年增加 16%。",
+    "sources": [
+      {
+        "title": "Breaking down the infinite workday",
+        "publisher": "Microsoft WorkLab",
+        "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday",
+        "published": "2025-06-17",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "世界時鐘、行事曆工作時間、輪替開會時段與非同步更新。",
+    "gap": "待驗證假設：在排會時同時顯示每人的當地時間與最近承擔的非工作時段次數，可能促進更公平的輪替。",
+    "mvp": "製作本機時區比較表，由成員自己輸入可接受時窗，只顯示時間差及輪替建議，不讀取私人行程。",
+    "test": "建議測試：讓三個跨時區小組試排四次會議；非自願的工作時窗外參會人次降低 30%，且決策未延誤才繼續。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：需正確處理夏令時間、日期跨日與成員自訂邊界，但不需行事曆權限。",
+    "caveat": "數據僅涵蓋特定 Microsoft 365 使用者，不能推論加班原因；無法找到公平同步時段時需改變協作方式。"
+  },
+  {
+    "id": 21,
+    "title": "遠端新人卡關時不知道找誰",
+    "category": "工作流程",
+    "audience": "遠端入職的新人與帶新人同事",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "新人拿到大量文件與待辦後，遇到一個不熟悉的步驟，不清楚誰能回答、能否打擾，於是等待或反覆搜尋。",
+    "evidence": "GitLab 的實際入職指南指出，遠端入職多為自學，缺少即時面對面提問機會，並要求定期確認需求、轉介專家及安排備援人員。",
+    "sources": [
+      {
+        "title": "The complete guide to remote onboarding for new-hires",
+        "publisher": "GitLab Handbook",
+        "url": "https://handbook.gitlab.com/handbook/company/culture//all-remote/onboarding/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "入職清單、伙伴制度、主管一對一與公司手冊。",
+    "gap": "待驗證假設：在每個容易卡關的入職步驟旁標明可找的人與備援方式，可能減少「清單完成不了但不知向誰問」的等待。",
+    "mvp": "替一個職類的首週 15 項任務加上完成範例、求助窗口、回應時段及備援人員，由團隊手動維護。",
+    "test": "建議測試：與兩位新進成員及伙伴試一個入職週；所有卡點能在一個工作日內找到承接人，且沒有新增重複填報才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：用現有文件即可建立，主要成本是確認窗口有人負責。",
+    "caveat": "GitLab 是單一全遠端公司的實務，非普及率研究；不得將新人問題公開評比或公開私人入職資料。"
+  },
+  {
+    "id": 22,
+    "title": "討論有結論卻沒有留下決策理由",
+    "category": "工作流程",
+    "audience": "以聊天和臨時通話合作的知識工作團隊",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "重要取捨在一段私訊或短通話中決定；後來加入的人只看到結果，無法知道排除方案與重新檢討條件。",
+    "evidence": "GitLab 公開溝通規範要求把線下談話結論寫下來，並在決策或變更完成時更新正式文件，避免後續混淆。",
+    "sources": [
+      {
+        "title": "GitLab Communication",
+        "publisher": "GitLab Handbook",
+        "url": "https://handbook.gitlab.com/handbook/communication/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "決策紀錄、專案文件、會議紀要與正式流程手冊。",
+    "gap": "待驗證假設：只記錄五個關鍵欄位的輕量決策卡，可能比要求每次寫完整會議紀錄更容易持續。",
+    "mvp": "製作決策卡模板：問題、決定、理由、負責人、何時重看，附原討論連結，由決策者確認後存入既有知識庫。",
+    "test": "建議測試：一個團隊記錄十個低風險決策後，請未參與者查找；至少九個能在兩分鐘內說明理由及重看條件才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：先用範本與人工確認，不需自動讀取所有私訊。",
+    "caveat": "來源是單一公司規範，不能證明普及率或因果效果；不得擴大原討論受眾、洩露敏感決策或抹去少數意見。"
+  },
+  {
+    "id": 23,
+    "title": "多人寄回修訂檔容易漏掉修改",
+    "category": "工作流程",
+    "audience": "以附件交換草稿的行政、研究與企劃人員",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "同一份草稿收到數個帶有不同修改的附件後，彙整者必須分清原始版本、修訂者及衝突，否則可能遺漏重要建議。",
+    "evidence": "Microsoft 官方支援文件明確處理多人回傳不同修訂副本的情境，並要求將額外副本逐一併入，保留修訂標示。",
+    "sources": [
+      {
+        "title": "Combine document revisions",
+        "publisher": "Microsoft Support",
+        "url": "https://support.microsoft.com/en-us/word/combine-document-revisions",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "Word 比較與合併修訂、追蹤修訂、OneDrive 共同編輯。",
+    "gap": "待驗證假設：對無法改用共同編輯的外部審稿流程，明確的收件與合併檢查單可能減少漏併版本。",
+    "mvp": "做本機修訂收件清單，記錄檔名、提供者、基底版本、已比較否及衝突處理狀態；實際合併仍用 Word。",
+    "test": "建議測試：請 5 位工作者處理含刻意衝突的四份測試稿；所有重要修改均有處理紀錄，且比自由操作少 30% 核對時間才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：不自製文件合併引擎，先補足既有工具前後的檢查流程。",
+    "caveat": "官方操作文件證明情境與既有解法，並非需求規模調查；不把機密文件上傳到新服務，也不自動接受內容修改。"
+  },
+  {
+    "id": 24,
+    "title": "遠端參會者想發言卻插不進去",
+    "category": "工作流程",
+    "audience": "混合或遠端會議的參與者與主持人",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "遠端成員想補充資訊，但現場對話節奏快、難抓停頓；主持人看不出誰還在等發言，重要意見因而未被討論。",
+    "evidence": "Fu 等人的 Microsoft 會議研究報告，改善遠端成員取得發言機會是受測者最常提出的包容性建議；研究樣本的虛擬舉手使用率不足 1%。",
+    "sources": [
+      {
+        "title": "Improving Meeting Inclusiveness using Speech Interruption Analysis",
+        "publisher": "Szu-Wei Fu 等；arXiv 作者公開稿",
+        "url": "https://arxiv.org/abs/2304.00658",
+        "published": "2023-04-02",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "虛擬舉手、主持人輪詢、聊天提問、會前書面意見。",
+    "gap": "待驗證假設：讓主持人用一個可見的發言順序與「尚未聽到的意見」檢查點，可能比只開啟舉手功能更易形成習慣。",
+    "mvp": "製作簡單自願排隊板，參與者按一下表示想說話，主持人可保留後續追問時間，不錄音也不辨識情緒。",
+    "test": "建議測試：在四場 6–10 人會議試用；九成自願排隊者能發言，且多數人認為討論沒有明顯變慢才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：排隊與主持提示可獨立運作，不需重建視訊平台。",
+    "caveat": "2022 會議論文於 2023 年公開稿發布，樣本與當時功能使用不能代表今日所有團隊；不能強迫每人發言或以發言量績效評分。"
+  },
+  {
+    "id": 25,
+    "title": "新增任務沒有說清楚要犧牲哪個目標",
+    "category": "工作流程",
+    "audience": "同時承接多項優先任務的知識工作者與主管",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "團隊每接一個新要求都被告知很重要，但原有工作未被減少；個人只能自行猜測哪些承諾可以延後。",
+    "evidence": "Atlassian 2024 研究頁中，64% 知識工作者認為團隊被拉向太多方向；70% 認為目標更少、更具體會較容易推進。",
+    "sources": [
+      {
+        "title": "State of Teams 2024",
+        "publisher": "Atlassian",
+        "url": "https://www.atlassian.com/blog/state-of-teams-2024",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "季度目標、每週優先清單、主管一對一及任務排序會議。",
+    "gap": "待驗證假設：新增工作時顯示它會擠掉的現有承諾，可能讓取捨比單純標記「高優先」更明確。",
+    "mvp": "做一張每週容量卡，只列三個主要交付與粗估時段；新任務加入時要求主管確認替換、縮減或延後哪一項。",
+    "test": "建議測試：一個團隊試三週；九成新增高優先工作都有明確取捨紀錄，且無預警逾期項目比基線少三分之一才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：模板即可驗證，真正瓶頸是主管願不願做取捨而非演算法。",
+    "caveat": "供應商研究的自報觀點不能證明因果；容量估計不能成為監控個人工時或不合理加壓的工具。"
+  },
+  {
+    "id": 26,
+    "title": "雙欄 PDF 被讀屏軟體交錯朗讀",
+    "category": "無障礙與照護",
+    "audience": "用螢幕閱讀器閱讀社區公告或公共服務說明的人",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "公告視覺上排成兩欄，但 PDF 標籤順序不正確時，讀屏會把左右欄交錯唸出，讀者無法還原步驟與條件。",
+    "evidence": "W3C 的 PDF3 技術文件具體說明：多欄文件若沒有正確標籤，讀屏可能橫跨兩欄朗讀；複雜版面即使轉成帶標籤 PDF，也仍可能需要修正閱讀順序。",
+    "sources": [
+      {
+        "title": "PDF3: Ensuring correct tab and reading order in PDF documents",
+        "publisher": "W3C WAI",
+        "url": "https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF3",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "W3C 已提供檢查方法；Acrobat Pro 可修復標籤，正確設定原始文件也能減少錯誤。",
+    "gap": "假設：小型公共服務單位欠缺把『看起來正常』與『實際朗讀正常』並排檢查的簡單流程。",
+    "mvp": "只支援公開的兩欄文字 PDF，顯示視覺頁面與標籤閱讀序列，讓製作者標記錯序段落並輸出修正清單。",
+    "test": "擬議測試：請 3 位讀屏使用者與 3 位公告製作者檢查 10 份測試文件；若找出至少 8 份文件中的預設錯序，且誤報不超過 2 份，通過初驗。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：閱讀序列預覽可小規模製作，但可靠修復 PDF 結構較難，因此先只做檢查與人工確認。",
+    "caveat": "這是已記載的技術障礙，並非地方發生率調查；工具不能宣稱完成整份文件的無障礙認證。來源僅標示更新日 2025-07-15，未標首次發布日。"
+  },
+  {
+    "id": 27,
+    "title": "字幕有對白卻漏掉關鍵聲音",
+    "category": "無障礙與照護",
+    "audience": "觀看公共資訊影片的聾人與聽障者",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "影片中的警示音、說話者切換或畫外聲音承載資訊，只有對白字幕時，觀眾仍不知道發生什麼事。",
+    "evidence": "W3C 對預錄字幕的說明指出，字幕除了對白，也需識別說話者並傳達有意義的非語音聲音；僅有對話文字不足以涵蓋所有聲音資訊。",
+    "sources": [
+      {
+        "title": "Understanding SC 1.2.2: Captions (Prerecorded)",
+        "publisher": "W3C WAI",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "字幕編輯器與 W3C 指引已有相關做法；現成字幕可由人工補上聲音與說話者標記。",
+    "gap": "假設：短片製作者容易把自動轉錄完成視為字幕完成，缺少針對非語音資訊的交付檢查。",
+    "mvp": "製作 3 分鐘以內影片的人工字幕檢查表與時間軸，逐段勾選說話者、重要聲音及字幕同步。",
+    "test": "擬議測試：用 6 支含關鍵音效的短片，請 5 位聽障參與者回答內容問題；修訂版比原版平均正確率提高至少 20 個百分點，且無新增誤導字幕，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：先做人工審查介面與字幕匯出，無須自建聲音辨識模型。",
+    "caveat": "字幕需求因語言及個人偏好不同；自動音效辨識不可直接作為安全資訊。來源僅標示更新日 2026-08-10。"
+  },
+  {
+    "id": 28,
+    "title": "線上申請在讀完前就逾時",
+    "category": "無障礙與照護",
+    "audience": "閱讀、輸入或使用輔助科技需要較長時間的申請者",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "使用者逐欄讀取公共服務表單或以輔助裝置輸入時，工作階段倒數結束，還沒確認就被迫重新開始。",
+    "evidence": "W3C 說明視覺、動作及認知障礙可能使閱讀、尋找欄位與輸入需要更多時間，並列出關閉、調整、提醒或延長時間限制的實作方法。",
+    "sources": [
+      {
+        "title": "Understanding SC 2.2.1: Timing Adjustable",
+        "publisher": "W3C WAI",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "WCAG 已有時間可調原則；表單可提供延長按鈕、草稿及重新驗證後恢復資料。",
+    "gap": "假設：公共服務團隊缺少能重現慢速輸入與讀屏情境的逾時測試腳本。",
+    "mvp": "以一份虛構服務表單示範倒數提示、鍵盤可達的延長控制，以及重新登入後保留非敏感草稿的流程。",
+    "test": "擬議測試：邀 6 位使用輔助科技的成人完成同一份模擬表單；至少 5 人可自行延長並完成，且無人因逾時丟失已填內容，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：示範原型容易，但正式服務的工作階段、安全與資料保留需要後端配合。",
+    "caveat": "不是所有時間限制都能取消，需考慮安全與真正的即時活動；測試不收集真實申請資料。來源僅標示更新日 2026-08-10。"
+  },
+  {
+    "id": 29,
+    "title": "登入驗證要求記憶與跨裝置抄碼",
+    "category": "無障礙與照護",
+    "audience": "有記憶、閱讀或抄寫困難的網站使用者",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "使用者能理解服務內容，卻在登入時被複雜密碼、限時抄碼或圖形謎題擋住，必須依賴別人協助。",
+    "evidence": "W3C 認知無障礙設計模式記錄忘記密碼、抄錯字元及有限重試導致鎖定的障礙，也指出禁止貼上密碼會增加困難。",
+    "sources": [
+      {
+        "title": "Provide a Login that Does Not Rely on Memory or Other Cognitive Skills",
+        "publisher": "W3C WAI",
+        "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p01-login-cognition/",
+        "published": "2021-04-29",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "密碼管理器、允許貼上的欄位、WebAuthn 與其他替代驗證方式已存在。",
+    "gap": "假設：小型服務需要一套可比較各種登入路徑認知負擔的低成本測試，而非再推出一個密碼保管庫。",
+    "mvp": "製作不連接真帳號的登入路徑測試站，對比可貼上、裝置信任與傳統抄碼流程，記錄哪一步造成失敗。",
+    "test": "擬議測試：由 6 位自願參與的成人各試 3 種模擬路徑；候選路徑至少 5 人可獨立完成，且能清楚說明目前登入哪個服務，才進入下一輪。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：可先驗證互動，正式驗證系統則需安全專業人員共同設計。",
+    "caveat": "不能以降低帳號安全或停用多因素驗證換取易用性；不收集任何真實密碼。來源內容初刊於 2021-04-29，網頁介面於 2022 年推出。"
+  },
+  {
+    "id": 30,
+    "title": "只能拖曳的控制讓手部操作困難者卡住",
+    "category": "無障礙與照護",
+    "audience": "使用軌跡球、頭控或其他替代指標裝置的人",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "網站要求拖拉滑桿或項目才能完成操作；使用者能點擊，卻無法同時按住、移動並精準放開。",
+    "evidence": "W3C 指出拖曳對部分動作障礙者及替代輸入裝置使用者容易出錯；即使已有鍵盤操作，也不等於提供了不需拖曳的單點操作。",
+    "sources": [
+      {
+        "title": "Understanding SC 2.5.7: Dragging Movements",
+        "publisher": "W3C WAI",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "WCAG 2.2 列出單點替代方式，例如數值欄位、點擊滑軌或移動按鈕。",
+    "gap": "假設：既有元件的改善常只測鍵盤，尚未測試只能點擊而不能持續拖曳的使用情境。",
+    "mvp": "做一組滑桿與排序清單對照元件，增加加減按鈕及『選取後移動』控制，提供可重用的人工測試清單。",
+    "test": "擬議測試：請 5 位替代指標裝置使用者完成 8 個操作；新元件至少 90% 任務不需拖曳即可完成，且無不可復原誤操作，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：範圍限制在兩種元件可迅速驗證，不需重寫整個網站。",
+    "caveat": "不同輔助裝置需另測；原型改善少數控制，不代表整站符合 WCAG。來源僅標示更新日 2026-08-10。"
+  },
+  {
+    "id": 31,
+    "title": "無階梯路線遇到電梯停用就中斷",
+    "category": "無障礙與照護",
+    "audience": "仰賴電梯搭地鐵的輪椅使用者與同行者",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "查到車站有無障礙標記後，乘客仍須確認當下電梯與轉乘設備狀態，否則整條路線可能無法完成。",
+    "evidence": "MTA 的無障礙車站說明明確要求出發前另查電梯狀態；其狀態頁同時區分現正停用及已排程的設備停用。",
+    "sources": [
+      {
+        "title": "View accessible subway stations",
+        "publisher": "MTA App Help Center",
+        "url": "https://intercom.help/mta-app-help-center/en/articles/14081295-view-accessible-subway-stations",
+        "published": "2026-03-18",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "Status tab",
+        "publisher": "MTA App Help Center",
+        "url": "https://intercom.help/mta-app-help-center/en/articles/14081867-status-tab",
+        "published": "2026-03-18",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "MTA app 已有無障礙模式、設備停用搜尋及路線服務通知。",
+    "gap": "假設：對固定往返的人，依其選定設備整理出發前檢查卡，比重新查看整份停用列表更省力。",
+    "mvp": "只涵蓋一條使用者選定路線，列出必需電梯、官方狀態連結與最後查核時間；資料不明時顯示待確認。",
+    "test": "擬議測試：用 20 組已知設備狀態回放與 5 位輪椅使用者測試；不得把停用或未知設備標成可用，且至少 4 人能在 1 分鐘內辨認是否需改查路線，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：卡片簡單，但正式提供可靠路線需交通資料、設備依賴關係及無障礙使用者共同驗證。",
+    "caveat": "來源適用紐約 MTA；狀態可能臨時改變，原型不能保證通行，也不能取代現場人員或官方行程資訊。"
+  },
+  {
+    "id": 32,
+    "title": "找到無障礙廁所仍不確定能否使用",
+    "category": "無障礙與照護",
+    "audience": "需要成人更衣床、移位設備或陪同空間的外出者",
+    "audienceType": "家庭",
+    "scope": "地方",
+    "problem": "一般無障礙廁所標記沒有交代成人更衣設備、開放時段及取鑰匙方式，家庭到場後可能發現不符合需要。",
+    "evidence": "Changing Places 說明一般無障礙廁所無法滿足所有人的需要，要求場館公布確切位置、開放時間及進入安排，並坦言場館並不總會主動回報設備故障。",
+    "sources": [
+      {
+        "title": "Changing Places: Install a toilet and venue guidance",
+        "publisher": "Changing Places Consortium",
+        "url": "https://www.changing-places.org/install-toilet",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "Changing Places 地圖、AccessAble 及 Euan's Guide 已提供設施資訊與回饋。",
+    "gap": "假設：仍值得驗證的是旅程前的設施確認與資訊更新流程，而非再做一張沒有維護責任的地圖。",
+    "mvp": "與 10 個場館合作，製作具最後確認日期的設施卡，列開放時間、入口、取鑰匙及設備狀態，過期資訊明顯標記。",
+    "test": "擬議測試：由 5 個家庭各核對兩個場館；10 張卡的重要設備與進入方式需全部與場館確認一致，且至少 4 個家庭能提前判斷是否適用，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：資料展示容易，可靠性取決於場館持續確認及實際使用者回饋。",
+    "caveat": "主要證據來自英國；不提供移位、吊帶或設備操作指導，不把未核實的群眾回報視為安全保證。"
+  },
+  {
+    "id": 33,
+    "title": "參觀前不知道哪裡有強光與突然音效",
+    "category": "無障礙與照護",
+    "audience": "對聲音、光線或擁擠較敏感的博物館訪客",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "一般場館平面圖只標展廳名稱，訪客難以在進入前判斷哪些空間有閃動光線、突發音效或可暫停休息的位置。",
+    "evidence": "史密森尼美國歷史博物館的感官指南逐區描述突發音效、脈動燈光、重疊音訊及擁擠情境；美國藝術博物館亦有標示明暗、聲量及座位的感官地圖。",
+    "sources": [
+      {
+        "title": "National Museum of American History Sensory Information",
+        "publisher": "Smithsonian Institution",
+        "url": "https://access.si.edu/sites/default/files/Social%20Narratives/nmah-sensory-guide.pdf",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "Accessibility: Musical Thinking Sensory Map",
+        "publisher": "Smithsonian American Art Museum",
+        "url": "https://americanart.si.edu/exhibitions/musical-thinking/accessibility/sensory-map",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "部分博物館已提供感官指南、社交敘事及感官地圖。",
+    "gap": "假設：其他小型場館缺少容易更新、同時提供文字版本的感官資訊範本。",
+    "mvp": "替一個合作場館製作 10 個區域的文字卡與平面圖，記錄可觀察的光、聲、座位與出口，不替訪客判定可承受程度。",
+    "test": "擬議測試：請 6 位有感官資訊需求的成人規劃參觀；至少 5 人能找到避開其指定刺激的路線，現場複核的重要描述全部一致，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：單一場館可人工盤點，主要投入在實地查核與共創，而非複雜技術。",
+    "caveat": "展覽與人流會改變；來源中的個別展覽不代表目前仍在展出。感官標記不是醫療建議或無刺激保證。"
+  },
+  {
+    "id": 34,
+    "title": "家庭照顧分工只停留在口頭答應",
+    "category": "無障礙與照護",
+    "audience": "共同支持同一位成人家人的無酬照顧者",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "家人說會幫忙聯絡服務或陪同外出，卻沒有寫下負責人與時間，主要照顧者仍需反覆追問及補位。",
+    "evidence": "Family Caregiver Alliance 的家庭會議指南把任務清單、每人的書面承諾、定期更新與下次會議列為協作內容，並指出角色與負擔差異會增加家庭合作難度。",
+    "sources": [
+      {
+        "title": "Holding a Family Meeting",
+        "publisher": "Family Caregiver Alliance",
+        "url": "https://www.caregiver.org/resource/holding-family-meeting/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "家庭會議、紙本分工表、群組訊息及共用行事曆都可支援協作。",
+    "gap": "假設：只記錄『誰答應、何時做、是否需接手』，會比包含大量照護資料的完整管理系統容易維持。",
+    "mvp": "做一張私密分工板，僅含陪伴、交通安排及服務聯絡等非醫療任務，明確提供拒絕、改期與請人接手的選項。",
+    "test": "擬議測試：邀 4 個同意參與的家庭試用兩週；至少 3 家在每週回顧時能明確指出所有待辦的負責人，且自述追問次數少於第一週基線，才繼續。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：先用簡單表格即可驗證；是否改善分工比功能多寡更重要。",
+    "caveat": "來源為美國照顧支援指南，未證明此原型能解決家庭衝突；尊重被照顧者意願，不記錄病歷或以分數評比家人。"
+  },
+  {
+    "id": 35,
+    "title": "主要照顧者突然缺席時沒有人能接手",
+    "category": "無障礙與照護",
+    "audience": "由單一家庭成員承擔多數日常支持的家庭",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "主要照顧者臨時無法到場，備援家人不知道聯絡誰、今天有哪些非醫療安排，以及既有資訊放在哪裡。",
+    "evidence": "Family Caregiver Alliance 的備援規劃指南指出，許多照顧者獨自處理各項事情；指南建議先確認願意接手的人，再準備聯絡人與日常安排等交接資訊。",
+    "sources": [
+      {
+        "title": "Smart Caregiving by FCA: Backup Planning",
+        "publisher": "Family Caregiver Alliance",
+        "url": "https://www.caregiver.org/resource/smart-caregiving-by-fca-backup-planning/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "FCA 提供備援指南；紙本資料夾、緊急聯絡卡及既有照顧服務可作為交接方式。",
+    "gap": "假設：備援計畫常缺少『對方已同意』與『最近演練過』的確認，而不只是缺少儲存資料的地方。",
+    "mvp": "提供可列印的非醫療接手卡，含兩位已同意聯絡人、日常行程位置、服務窗口及最後演練日期；敏感資料另存於家庭控制的位置。",
+    "test": "擬議測試：5 個家庭做一次不影響真實照顧的桌上演練；至少 4 位備援者在 3 分鐘內找到正確聯絡人與當日安排，且沒有誤以為自己可執行未受訓照護，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：模板與演練可先行，無須自動派遣或整合醫療系統。",
+    "caveat": "不處理給藥、移位或緊急醫療決策；卡片不能保證即時有人接手，資訊只能與獲得同意的備援者分享。"
+  },
+  {
+    "id": 36,
+    "title": "申請喘息服務不知道下一位該找誰",
+    "category": "無障礙與照護",
+    "audience": "首次申請或跨縣市接續喘息服務的臺灣家庭照顧者",
+    "audienceType": "家庭",
+    "scope": "跨地區",
+    "problem": "申請經過照管中心評估、A 單位擬定計畫與服務媒合，搬到另一縣市又要移交，家屬不易掌握目前在哪一步及下一個窗口。",
+    "evidence": "衛福部列出的流程包含向居住地申請、訪視評估、A 單位共同擬定計畫與連結服務；跨縣市需由原 A 單位及兩地照管中心辦理移交。",
+    "sources": [
+      {
+        "title": "喘息服務",
+        "publisher": "衛生福利部長期照顧司",
+        "url": "https://1966.gov.tw/LTC/cp-6454-70075-207.html",
+        "published": "2022-06-16",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "1966 專線、縣市照管中心與 A 單位個管員已有正式申請及轉介服務。",
+    "gap": "假設：家庭若有一張由自己維護的進度及待問問題卡，能減少重複說明與找錯窗口。",
+    "mvp": "依官方流程做五階段導覽，讓家屬記錄已聯絡窗口、下次聯絡日期及待確認問題，直接連回 1966 與地方資訊。",
+    "test": "擬議測試：與照顧服務單位合作邀 6 位首次申請者走讀案例；至少 5 人能正確指出下一步與聯絡角色，且不誤以為原型能核定資格或保證名額，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：介面可快速製作，但轉介資訊與地方差異需照管實務人員核對。",
+    "caveat": "適用臺灣；來源更新於 2025-01-06，實際資格、流程與服務量能仍須向 1966 或當地窗口確認。原型不評定失能程度、不給醫療建議。"
+  },
+  {
+    "id": 37,
+    "title": "復康接送預約窗口比活動日期短",
+    "category": "無障礙與照護",
+    "audience": "已取得紐約 Access-A-Ride 資格、需提前安排外出的乘客",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "活動早已排定，接送卻要等到前一兩天才能訂；乘客需另外記住可預約時段，並準備去回程地址與抵達時間。",
+    "evidence": "MTA 官方說明 Access-A-Ride 一般預約須於前 1–2 天、每日 7 時至 17 時辦理，不提供當日預約；修改行程需取消再訂，去回程都要備妥必要資訊。",
+    "sources": [
+      {
+        "title": "Booking and managing an Access-A-Ride trip",
+        "publisher": "Metropolitan Transportation Authority",
+        "url": "https://www.mta.info/accessibility/access-a-ride/book-and-manage-trips",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "MY AAR 已能預約、取消、追蹤行程；固定同時段行程另有訂閱服務。",
+    "gap": "假設：非固定行程仍需要把活動日期轉成預約提醒，並在預約前整理去回程資訊。",
+    "mvp": "做一個不登入 AAR 的本機準備卡，輸入活動日期即可顯示可預約窗口，並產生去回程檢查表及官方入口。",
+    "test": "擬議測試：5 位符合資格的乘客用虛構行程試算 10 個日期；預約窗口計算需 100% 正確，至少 4 人無協助即可備齊必要資訊，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：只做時間提醒與資訊準備，不自動訂車，技術範圍小。",
+    "caveat": "僅以紐約 AAR 規則為例，其他地區需重做規則；不能延長預約窗口、保證車輛或替代官方確認。"
+  },
+  {
+    "id": 38,
+    "title": "有溝通輔助政策，櫃檯卻不會使用",
+    "category": "無障礙與照護",
+    "audience": "接待聾人、聽障或言語障礙者的公共服務櫃檯",
+    "audienceType": "公共服務",
+    "scope": "地方",
+    "problem": "機構有口譯、文字或電話轉接方案，第一線人員卻不知道如何啟用，來訪者必須反覆解釋自己的溝通方式。",
+    "evidence": "美國司法部的有效溝通指南指出，單有良好政策仍可能因第一線人員不知如何執行而出問題，並要求接線人員正常處理 TRS 與 VRS 轉接電話。",
+    "sources": [
+      {
+        "title": "ADA Requirements: Effective Communication",
+        "publisher": "U.S. Department of Justice",
+        "url": "https://www.ada.gov/resources/effective-communication/",
+        "published": "2014-01-01",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "TRS、VRS、即時字幕、合格口譯及在地障礙團體培訓已有實務方案。",
+    "gap": "假設：櫃檯缺少按實際服務情境製作、可立即找到人的簡短操作卡。",
+    "mvp": "與一個服務據點製作三張流程卡：文字溝通、接受轉接來電、找合格支援；由障礙者代表共同審查。",
+    "test": "擬議測試：8 位櫃檯人員進行三種模擬情境；至少 7 人能尊重使用者選擇並找到正確支援，且無人直接拒接轉接電話，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：流程卡易製作，但必須連到真實可用的支援服務並接受當事人檢驗。",
+    "caveat": "美國指引最後更新於 2020-02-28；各地義務不同。本原型是服務流程改善，不提供個案法律判斷，也不以自動翻譯代替合格口譯。"
+  },
+  {
+    "id": 39,
+    "title": "請家人代辦線上服務只好交出帳密",
+    "category": "公共服務與社區",
+    "audience": "協助成人親友辦理公共服務的非正式數位協助者",
+    "audienceType": "家庭",
+    "scope": "跨地區",
+    "problem": "當事人需要協助完成線上服務，但網站沒有清楚說明陪同操作或正式代理途徑，雙方容易把分享登入資料當作唯一辦法。",
+    "evidence": "英國 DSIT 委託研究指出，缺少安全、正式的代理方式時，人們會採用分享登入資料等變通；研究也觀察到部分數位排除者依賴單一協助者。",
+    "sources": [
+      {
+        "title": "How people are helped online: informal and proxy digital support",
+        "publisher": "UK Department for Science, Innovation and Technology",
+        "url": "https://www.gov.uk/government/publications/how-people-are-helped-online-informal-and-proxy-digital-support",
+        "published": "2026-09-29",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "親友陪同、電話服務、正式授權代理與部分服務的代理帳號機制已存在。",
+    "gap": "假設：把少數公共服務的官方協助與代理途徑說清楚，能減少把共享密碼當預設選項的情況。",
+    "mvp": "人工整理 5 項非醫療公共服務的陪同操作、電話求助與正式代理連結，做成不收帳密的準備指南。",
+    "test": "擬議測試：找 6 組成人協助者與被協助者完成虛構案例；至少 5 組能選出官方允許的協助途徑，且沒有一組認為需把密碼交給原型，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：靜態導覽可先試，但代理權限因服務不同，資訊需定期核實。",
+    "caveat": "證據來自英國研究，不直接推估臺灣需求；不得冒充當事人、保管密碼，或自行推定家屬具有代理權。"
+  },
+  {
+    "id": 40,
+    "title": "不會線上申辦卻找不到真人協助入口",
+    "category": "公共服務與社區",
+    "audience": "缺乏網路、數位信心或線上操作能力的公共服務使用者",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "服務首頁提供線上申請，民眾真正需要的電話、現場協助與預約方式卻分散在其他頁面，難以判斷如何開始。",
+    "evidence": "英國政府服務手冊明列低信任、低信心、缺乏網路及技能等輔助需求，並把電話與面對面支援列為服務設計的一部分。",
+    "sources": [
+      {
+        "title": "Assisted digital support: an introduction",
+        "publisher": "UK Government Digital Service",
+        "url": "https://www.gov.uk/service-manual/helping-people-to-use-your-service/assisted-digital-support-introduction",
+        "published": "2016-04-08",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "政府電話客服、現場服務中心、圖書館及志工協助可提供非線上支援。",
+    "gap": "假設：在一個地區把服務項目與實際真人支援方式配對，比再製作一般數位教學更直接。",
+    "mvp": "盤點 10 項地方服務，製作大字版與可列印的『誰能幫、何時開、是否需預約』卡片，附原始官方來源。",
+    "test": "擬議測試：邀 8 位低數位信心成人各找兩項服務；至少 7 人能在 3 分鐘內找到可行的真人支援入口，且所有聯絡資訊經人工查核有效，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：限單一地區、少量服務可人工維護；最初不需要即時預約整合。",
+    "caveat": "來源支持真人支援需求，不證明每個地區的入口都難找；服務手冊更新於 2025-12-18，地方可用支援需另查。"
+  },
+  {
+    "id": 41,
+    "title": "機器翻譯的市政資訊仍需要口譯核對",
+    "category": "公共服務與社區",
+    "audience": "不熟悉當地主要語言的市政服務使用者",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "民眾讀完機器翻譯的辦事說明仍不確定重要條件，卻不知道可以如何接通真人口譯。",
+    "evidence": "NYC311 說明網站使用 Google Translate，無法翻譯所有文件，也不保證翻譯準確；官方建議重要資訊致電核實，客服可依要求接入口譯。",
+    "sources": [
+      {
+        "title": "About NYC311: Language Access",
+        "publisher": "City of New York / NYC311",
+        "url": "https://portal.311.nyc.gov/about-nyc-311/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "NYC311 已提供多語電話口譯、網站翻譯及語言協助資訊。",
+    "gap": "假設：一張以使用者語言列出『怎麼要求口譯、要問哪三件事』的卡片，能降低從網頁轉到電話的門檻。",
+    "mvp": "由雙語審查者製作兩種語言的口譯求助卡，包含官方聯絡方式與可自行填寫的問題欄。",
+    "test": "擬議測試：10 位使用兩種語言的成人做模擬電話；至少 8 人能說明需要的語言並提出完整問題，雙語審查未發現關鍵誤譯，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：少量語言與場景可先做，但準確翻譯需母語或專業審查。",
+    "caveat": "以紐約市為例；不得把機器翻譯標為官方譯本，也不對申請資格或法律效果作解釋。"
+  },
+  {
+    "id": 42,
+    "title": "市政案件有編號卻不在同一處查進度",
+    "category": "公共服務與社區",
+    "audience": "追蹤路燈、號誌等地方公共設施通報的居民",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "通報後拿到案件號碼，卻在一般查詢頁查不到進度；不同類型又要轉到不同機關頁面。",
+    "evidence": "NYC311 的狀態說明列明路燈與號誌等案件不在一般 Service Request Lookup 顯示，並提供另外的機關查詢入口；查詢通常需要案件編號。",
+    "sources": [
+      {
+        "title": "Service Request Status",
+        "publisher": "City of New York / NYC311",
+        "url": "https://portal.311.nyc.gov/article/?kanumber=KA-01066",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "NYC311 Lookup、各機關查詢系統、電子郵件及簡訊狀態通知均已存在。",
+    "gap": "假設：民眾需要的是依案件類型導向正確入口的收據夾，而非另一套通報系統。",
+    "mvp": "只支援路燈、號誌與一般 311 三類，讓使用者本機保存編號、提交日期與官方追蹤連結。",
+    "test": "擬議測試：給 8 位居民各三張虛構收據；至少 7 人能在 2 分鐘內找到全部正確入口，且不把『查不到』理解成『已處理』，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：以規則導覽及本機紀錄即可測試，不需取得機關內部案件資料。",
+    "caveat": "只以紐約流程為例；查詢狀態不等於現場問題已解決。不得自動重複通報或公開居民住址。"
+  },
+  {
+    "id": 43,
+    "title": "申請公開資料前不知哪個機關持有紀錄",
+    "category": "公共服務與社區",
+    "audience": "首次查詢政府公開紀錄的居民與社區組織",
+    "audienceType": "社區組織",
+    "scope": "跨地區",
+    "problem": "想查某項政府決策的既有紀錄，卻不知道應先找已公開資料，還是把請求寄到哪個機關或下屬單位。",
+    "evidence": "FOIA.gov 說明沒有一個中央辦公室處理所有聯邦機關的請求，各機關處理自己持有的紀錄；官方建議先搜尋既有公開內容，並合理描述所需紀錄。",
+    "sources": [
+      {
+        "title": "FOIA.gov Frequently Asked Questions",
+        "publisher": "U.S. Department of Justice, Office of Information Policy",
+        "url": "https://www.foia.gov/faq.html",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "How to Make a FOIA Request",
+        "publisher": "U.S. Department of Justice, Office of Information Policy",
+        "url": "https://www.foia.gov/how-to.html",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "FOIA.gov 已有機關名錄、公開資料搜尋、請求入口及機關聯絡人。",
+    "gap": "假設：首次使用者仍需要把『想知道的問題』轉成『可能存在的紀錄、時間範圍與持有機關』的準備步驟。",
+    "mvp": "做一張請求前工作紙，連結機關目錄與公開資料入口，讓使用者列出紀錄名稱、日期範圍及待向官方聯絡人確認的問題。",
+    "test": "擬議測試：由 6 位初次使用者處理 6 個非敏感模擬案例；至少 5 人能分清既有紀錄請求與要求機關做新研究，且選對官方聯絡入口，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：以資料整理及官方連結為主，不需自動法律分析或自動提交。",
+    "caveat": "僅適用美國聯邦 FOIA 情境，州與地方制度不同；不保證公開結果、費用或時程，也不替使用者作法律判斷。"
+  },
+  {
+    "id": 44,
+    "title": "想在聽證會發言卻漏掉準備期限",
+    "category": "公共服務與社區",
+    "audience": "首次參與紐約市議會公開聽證會的居民",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "會議日期、書面意見期限與語言或無障礙支援申請時間並不相同，居民看到開會資訊時可能已錯過所需安排。",
+    "evidence": "紐約市議會說明非土地使用委員會的書面證詞可於散會後 72 小時內提交；ASL、CART 及非英語口譯原則上需提前至少 3 個工作日聯絡，另有不同委員會入口。",
+    "sources": [
+      {
+        "title": "Hearing Testimony Registration",
+        "publisher": "New York City Council",
+        "url": "https://council.nyc.gov/testify/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "議會已有聽證會行事曆、登記表、遠端參與政策及支援聯絡方式。",
+    "gap": "假設：把一場會議的各項準備日期整理在一張卡上，可減少只記住開會日的錯漏。",
+    "mvp": "人工維護 5 場會議的中立參與卡，列委員會、官方頁面、參與方式、支援窗口與需再次確認的截止時間。",
+    "test": "擬議測試：8 位新參與者用模擬會議完成準備；至少 7 人能正確指出自己所需支援與提交期限，卡片無任何錯誤日期，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：單一議會可人工維護，但假日、散會時間及委員會例外需要審核。",
+    "caveat": "只提供非黨派程序資訊，不代寫或自動提交政治立場；證詞可能成為永久公開紀錄，需提醒避免不必要的本人及他人個資。"
+  },
+  {
+    "id": 45,
+    "title": "政策諮詢開放時難以辨認還剩多久",
+    "category": "公共服務與社區",
+    "audience": "想閱讀並回應政府公開諮詢的居民與社區團體",
+    "audienceType": "社區組織",
+    "scope": "跨地區",
+    "problem": "各部門政策諮詢同時開放、截止日各異，團體需要先辨認相關主題是否仍能回應，再安排閱讀原始材料。",
+    "evidence": "英國 GOV.UK 的 Get involved 頁面分列開放、已結束及即將截止的諮詢，並為不同部門議題列出各自的截止日與更新日期。",
+    "sources": [
+      {
+        "title": "Get involved",
+        "publisher": "UK Government / GOV.UK",
+        "url": "https://www.gov.uk/government/get-involved",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "GOV.UK 已有諮詢集中入口、搜尋與各部門原始諮詢頁。",
+    "gap": "假設：使用者自行挑選主題後，少量議題的閱讀清單與截止提醒，比不分主題的大量通知更實用。",
+    "mvp": "讓使用者手動加入最多 10 個官方諮詢連結，顯示日期、原文、回應方式及最後核對時間，不替人推定立場。",
+    "test": "擬議測試：6 個社區團體用同一組 10 個案例；至少 5 組能在 5 分鐘內正確分出仍開放與已截止項目，且沒有錯誤延後期限，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：先採使用者手選與人工核對，可避開大規模抓取及錯誤自動摘要。",
+    "caveat": "證據顯示多個截止日期，未證明一般民眾普遍漏接；僅做中立程序整理，不依個人特徵推送政治說服內容。"
+  },
+  {
+    "id": 46,
+    "title": "同一住址對應多層地方政府窗口",
+    "category": "公共服務與社區",
+    "audience": "新搬家或首次使用地方公共服務的居民",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "居民想找圖書館、候車亭或社區中心的負責窗口，卻發現縣、區與更小地方層級分工不同，無法只靠行政區名稱判斷。",
+    "evidence": "GOV.UK 說明英格蘭同時有兩層及單一層地方政府；圖書館等服務通常屬縣級，部分候車亭與社區中心則可能由 parish、community 或 town council 提供。",
+    "sources": [
+      {
+        "title": "Understand how your council works: Types of council",
+        "publisher": "UK Government / GOV.UK",
+        "url": "https://www.gov.uk/understand-how-your-council-works/types-of-council",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "GOV.UK 的 Find your local council、地方政府網站與服務名錄已提供入口。",
+    "gap": "假設：以實際想辦的事反查責任單位，比只顯示轄區政府名稱更適合初次使用者。",
+    "mvp": "選一個兩層地方政府區域，人工確認圖書館、候車亭及社區中心三類服務，製作『事項→機關→聯絡頁』卡。",
+    "test": "擬議測試：10 位當地成人完成 6 個模擬查詢；至少 8 人找對 5 個以上窗口，且全部資料經官方來源交叉核對，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：單一地區的小型責任矩陣可人工建立，擴區前再驗證維護成本。",
+    "caveat": "來源只適用英格蘭；不能把通常分工當每個地方的確定分工，行政重組與委託營運均可能造成例外。"
+  },
+  {
+    "id": 47,
+    "title": "招募志工時不清楚應走哪種查核流程",
+    "category": "公共服務與社區",
+    "audience": "需要為不同服務角色安排合規入職程序的社區組織",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "社區組織把所有志工角色視為相同，容易混淆角色是否可申請特定 DBS 查核，以及志工身分與申請程序。",
+    "evidence": "英國 DBS 志工指南要求先確認角色符合哪一級查核資格，再判斷是否符合志工定義；指南明確說明付薪與志工角色都須遵守查核資格限制。",
+    "sources": [
+      {
+        "title": "DBS check application process for volunteers",
+        "publisher": "UK Disclosure and Barring Service",
+        "url": "https://www.gov.uk/government/publications/dbs-check-application-process-for-volunteers/disclosure-application-process-for-volunteers",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "DBS 官方資格指南、志工申請說明與組織自身的安全保護負責人已有審查流程。",
+    "gap": "假設：小組織需要的是把角色職責整理完整再交專人判斷，而非自動替志工打風險分數。",
+    "mvp": "做一份角色描述與審查交接表，只收工作內容、服務場景及官方指引連結，記錄由誰確認程序，不收犯罪紀錄。",
+    "test": "擬議測試：由 3 位合格組織負責人審查 12 個虛構角色；至少 11 份交接表具備其判斷所需資訊，且原型沒有自行下資格結論，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：表單容易，但角色與規範的對照必須由熟悉 DBS 與安全保護的人員審核。",
+    "caveat": "來源更新於 2026-07-01，適用範圍及後續法規變動須再查；不得儲存敏感背景資料或用演算法決定誰可擔任志工。本項不提供法律意見。"
+  },
+  {
+    "id": 48,
+    "title": "社區聚會找得到房間卻不一定能借",
+    "category": "公共服務與社區",
+    "audience": "籌辦非商業公開活動的社區團體",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "團體找到容量合適的公共會議室後，才發現活動是否公開、用途與不同館舍預約方式也決定能不能使用。",
+    "evidence": "西雅圖公共圖書館說明分館免費會議室須為非商業用途且開放公眾；中央圖書館使用不同申請方式，不能透過分館預約系統辦理。",
+    "sources": [
+      {
+        "title": "Reserve a room",
+        "publisher": "The Seattle Public Library",
+        "url": "https://www.spl.org/using-the-library/reservations-and-requests/reserve-a-room",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "圖書館已有分館預約入口、中央館申請流程及設施使用政策。",
+    "gap": "假設：在比較容量前先看用途條件與申請入口，能減少選定場地後才發現不適用。",
+    "mvp": "為一個圖書館系統做 10 個公共會議空間的條件比較卡，列用途、容量、公開性要求及官方預約連結。",
+    "test": "擬議測試：6 位社區活動組織者完成 4 個模擬情境；至少 5 人每題都能排除不符合用途的房間，且無人把卡片當成預約成功，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：先做規則與入口整理即可，不需要即時庫存或代訂場地。",
+    "caveat": "證據只適用西雅圖公共圖書館，不代表其他場館規則；空檔、費用與條款以官方頁面為準，原型不代接受使用契約。"
+  },
+  {
+    "id": 49,
+    "title": "鄰里互助沒有事先確認聯絡與集合方式",
+    "category": "公共服務與社區",
+    "audience": "想建立災前互助安排的公寓或街區居民小組",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "鄰居願意互相幫忙，但沒有事先確認聯絡方式、現有社區計畫及可提供的支援，通訊中斷時難以協調。",
+    "evidence": "紐西蘭民防 Get Ready 建議鄰居交換聯絡方式、討論各自計畫及可互助的事項，並先向地方民防單位確認是否已有社區緊急計畫；其手冊亦指出通訊可能中斷。",
+    "sources": [
+      {
+        "title": "Get your community ready",
+        "publisher": "New Zealand National Emergency Management Agency",
+        "url": "https://getready.govt.nz/involved/community",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "Get Ready emergency preparedness booklet",
+        "publisher": "New Zealand National Emergency Management Agency",
+        "url": "https://getready.govt.nz/assets/Uploads/documents/preparedness/get-ready-booklets/booklet-info-en-sep24.pdf",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "民防社區計畫、Neighbourhood Support Groups 與紙本聯絡清單已有運作方式。",
+    "gap": "假設：居民需要的是經同意、定期核對且能離線使用的輕量協調資料，不需要公開標示脆弱住戶的地圖。",
+    "mvp": "與一棟自願參與的公寓製作可離線列印的聯絡及集合卡，先連結官方既有計畫，只記錄參與者自願提供的非敏感支援事項。",
+    "test": "擬議測試：10 位自願居民做一次桌上通訊中斷演練；至少 8 人能說出約定集合方式與聯絡角色，所有分享資料均有當事人確認，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：紙本工具簡單，真正工作是取得同意、協調既有計畫及安全演練。",
+    "caveat": "來源為紐西蘭，需配合當地民防安排；不提供救援指揮、醫療處置或進入危險區域建議，不公開住戶位置與健康需求。"
+  },
+  {
+    "id": 50,
+    "title": "轉乘途中遺失物品不知道該問哪個單位",
+    "category": "公共服務與社區",
+    "audience": "在跨營運商鐵路旅程中遺失物品的乘客",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "乘客記得旅程與車站，卻不確定物品落在車廂還是站內，也不知道列車營運商與車站管理者可能不同。",
+    "evidence": "National Rail 明確說明其查詢中心不管理站內或列車失物，須聯絡個別列車或車站營運商；其名錄另列非列車公司的車站管理者。",
+    "sources": [
+      {
+        "title": "National Rail: Lost Property",
+        "publisher": "National Rail",
+        "url": "https://www.nationalrail.co.uk/travel-information/operators/national-rail/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "Find a Train Company",
+        "publisher": "National Rail",
+        "url": "https://www.nationalrail.co.uk/travel-information/find-a-train-company/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "National Rail 已提供營運商與車站查詢，各單位有自己的失物聯絡入口。",
+    "gap": "假設：把一段轉乘旅程拆成可能的持有單位與聯絡紀錄，可以減少重複詢問或只問到單一窗口。",
+    "mvp": "只涵蓋一條跨營運商路線，以車站與車次資訊產生需核對的官方窗口清單，讓乘客本機記錄詢問日期與參考編號。",
+    "test": "擬議測試：8 位成人處理 6 個虛構遺失情境；至少 7 人能找出所有相關官方入口，且不把一般 National Rail 客服誤當統一失物庫，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：單一路線可人工核對，但擴大範圍須維護營運商與車站責任資料。",
+    "caveat": "適用英國 National Rail 情境；不保證尋回、不自動聯絡第三方，也不收集證件照片、裝置解鎖資訊或完整物品識別秘密。"
+  },
+  {
+    "id": 51,
+    "title": "廢鋰電池找不到合適回收出口",
+    "category": "環境與資源",
+    "audience": "要丟棄行動電源、耳機或工具電池的家庭",
+    "audienceType": "家庭",
+    "scope": "地方",
+    "problem": "整理抽屜時遇到內建電池或標示不清的舊裝置，無法確定該交哪種回收點，容易混入一般垃圾或回收物。",
+    "evidence": "美國 EPA 說明，鋰電池與含鋰電池裝置不應進入一般垃圾或路邊回收桶；運輸與分選時擠壓可能起火，且部分電池不宜由使用者拆卸。",
+    "sources": [
+      {
+        "title": "Used Lithium-Ion Batteries",
+        "publisher": "美國環境保護署 EPA",
+        "url": "https://www.epa.gov/recycle/used-lithium-ion-batteries",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "EPA 指引、地方有害廢棄物收集點、Call2Recycle 與 Earth911 回收地點查詢。",
+    "gap": "假設待驗證：使用者可能仍需一份把「完整裝置、可拆電池、受損電池」與附近收受條件連起來的短流程；目前未證實其使用意願。",
+    "mvp": "先為一個行政區人工核對 10 個收集點，製作物件類型、收受限制、聯絡方式及最後確認日期的查詢卡。",
+    "test": "提議測試：請 8 戶用 6 個模擬物件找出口；至少 7 戶能全部避開一般垃圾，且每戶至少找對 5 個處理管道才通過，否則修訂流程。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：查詢卡容易製作，但收受條件需逐點核實且持續更新。",
+    "caveat": "來源以美國制度為例，須向目標地區回收單位查核。膨脹、漏液或受損電池應轉交廠商／專業單位指引，不提供自行拆修或郵寄教學。"
+  },
+  {
+    "id": 52,
+    "title": "同樣的回收標誌在不同地方不能照抄",
+    "category": "環境與資源",
+    "audience": "剛搬家或管理社區回收區的住戶",
+    "audienceType": "家庭",
+    "scope": "地方",
+    "problem": "搬家後沿用原住處的分類習慣，或只看塑膠材質編碼，結果把當地不收的物件投入回收桶。",
+    "evidence": "EPA 明確指出，塑膠樹脂編碼不保證當地收受；不同回收業者的分類與收集方式也不同，不收受物件可能污染回收物流並增加分選負擔。",
+    "sources": [
+      {
+        "title": "Frequent Questions on Recycling",
+        "publisher": "美國環境保護署 EPA",
+        "url": "https://www.epa.gov/recycle/frequent-questions-recycling",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "地方政府分類指南、清運業者網站與 Earth911。",
+    "gap": "假設待驗證：以實際清運業者為基準的少量物件圖卡，可能比全國通用分類表更能減少誤投，尚待實測。",
+    "mvp": "選一棟大樓的 20 種常見非食物廢棄物，人工核對業者規則，做成可列印圖卡與「不確定先詢問」入口。",
+    "test": "提議測試：用 20 張物件卡測 10 位住戶，導入前後比較；平均答對至少增加 4 題，且高風險物品零誤投才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：單一清運範圍、固定物件數可人工整理，不需影像辨識。",
+    "caveat": "美國官方來源只支持各地規則差異；不能把其分類直接套用臺灣。圖卡須標示主管機關、適用範圍與版本日期。"
+  },
+  {
+    "id": 53,
+    "title": "維修前查不到零件與診斷資訊",
+    "category": "環境與資源",
+    "audience": "接修常見小家電的獨立維修店",
+    "audienceType": "小企業",
+    "scope": "跨地區",
+    "problem": "店家收到故障裝置後，才發現缺少對應型號零件、拆解資料或診斷工具，花時間詢問後仍無法報出可行方案。",
+    "evidence": "FTC 的維修限制報告新聞稿列出黏合設計、零件供應受限及診斷軟體不可取得等實際限制類型。這是限制存在的證據，並非所有產品均無法維修。",
+    "sources": [
+      {
+        "title": "FTC Report to Congress Examines Anti-Competitive Repair Restrictions, Recommends Ways to Expand Consumers’ Repair Options",
+        "publisher": "美國聯邦貿易委員會 FTC",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2021/05/ftc-report-congress-examines-anti-competitive-repair-restrictions-recommends-ways-expand-consumers",
+        "published": "2021-05-06",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "原廠維修管道、獨立維修店與公開維修手冊。",
+    "gap": "假設待驗證：接件前整理「查得到／需詢問／無法確認」的型號資訊，可能減少白跑與重複詢問；工具本身不能解除供應限制。",
+    "mvp": "與一家維修店合作，先做 15 個常見型號的接件前查核表，只連結合法公開手冊、零件供應頁與原廠聯絡管道。",
+    "test": "提議測試：試用於 20 次真實詢問；至少 16 次能在 5 分鐘內列出下一步與未知項，且零件相容性零錯誤才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀評估：資料整理可低成本完成，但型號相容性與可修判斷需技師核對。",
+    "caveat": "2021 年美國報告屬歷史證據，不代表 2026 年各品牌政策；不推論本地保固法律，不提供帶電拆機或繞過軟體保護的方法。"
+  },
+  {
+    "id": 54,
+    "title": "舊電腦捐出前的準備步驟容易漏掉",
+    "category": "環境與資源",
+    "audience": "準備捐贈或回收舊電腦的家庭",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "已找到捐贈或回收單位，卻不清楚要先備份、移除帳號與清除資料，還是處理電池，裝置因而一直留在家中。",
+    "evidence": "EPA 的電子產品捐贈指引要求交出前刪除個人資料、考慮升級延用，並確認電池與電子產品的回收方式；也列有既有回收查詢管道。",
+    "sources": [
+      {
+        "title": "Electronics Donation and Recycling",
+        "publisher": "美國環境保護署 EPA",
+        "url": "https://www.epa.gov/recycle/electronics-donation-and-recycling",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "作業系統／原廠重設說明、回收商與捐贈單位的接收流程。",
+    "gap": "假設待驗證：依裝置型號整理一張完成狀態卡，可能降低「不確定是否準備好」造成的延遲，尚未驗證延遲比例。",
+    "mvp": "先做兩種常見電腦平台的本機檢核卡，連結原廠資料清除文件，記錄使用者自行完成狀態與接收方要求。",
+    "test": "提議測試：請 6 位持有待處理電腦的成人試用；一週內至少 5 位完成接收方確認與備份／清除計畫，且無人誤刪未備份資料才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：首版只整理操作順序與官方連結，不需讀取裝置內容。",
+    "caveat": "不替使用者遠端清除資料，不蒐集帳號、密碼或硬碟內容；無法保證所有儲存媒體的資料不可復原。不可自行拆除不支援拆卸的電池。"
+  },
+  {
+    "id": 55,
+    "title": "社區堆肥出現異味後不知道原因",
+    "category": "環境與資源",
+    "audience": "輪班照顧小型堆肥區的社區志工",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "不同志工輪流加料，沒有留下水分、乾料與翻堆紀錄；出現異味或停止分解時，很難回溯是哪個環節失衡。",
+    "evidence": "EPA 說明堆肥需要碳料、氮料、水與空氣的適當平衡；過乾會減慢分解，異味可能與過濕或通氣不足有關，且家用堆肥通常不適合可堆肥餐具或袋子。",
+    "sources": [
+      {
+        "title": "Composting At Home",
+        "publisher": "美國環境保護署 EPA",
+        "url": "https://www.epa.gov/recycle/composting-home",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "EPA 堆肥指南、地方社區堆肥培訓與紙本工作紀錄。",
+    "gap": "假設待驗證：交班用的短紀錄與異常對照表，可能比追加感測器更能協助小型站點維護，仍需志工驗證。",
+    "mvp": "製作一張防水輪值表，記錄乾／濕、異味、加料種類、翻堆日期及當班人員代號，附當地收料清單。",
+    "test": "提議測試：一個堆肥點試行 4 週；至少 80% 值班留下完整紀錄，遇到異常時兩位志工判斷下一步的一致率達 80% 才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：現成表格與官方指引足以做首版，無須硬體。",
+    "caveat": "來源為美國庭院堆肥原則；社區與商業設備收料規則不同。測試不代表已證實能改善堆肥品質，也不提供食品衛生或可食用作物安全保證。"
+  },
+  {
+    "id": 56,
+    "title": "破損但乾淨的布料找不到適合去處",
+    "category": "環境與資源",
+    "audience": "整理舊衣、床單與窗簾的住戶",
+    "audienceType": "家庭",
+    "scope": "地方",
+    "problem": "同一袋布料有可穿衣物、破損床單與其他織品，使用者無法判斷哪些能捐、哪些能材料回收，可能白跑收集點。",
+    "evidence": "紐約市清潔局列出不同紡織品的收集途徑，要求向各收集點確認品項；市府站點要求物品乾淨、乾燥、無異味且裝袋，部分站點時間受季節與天候影響。",
+    "sources": [
+      {
+        "title": "Clothing, Household Fabrics, and Accessories",
+        "publisher": "紐約市清潔局 DSNY",
+        "url": "https://www.nyc.gov/site/dsny/collection/get-rid-of/clothing-household-fabrics-accessories.page",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "DSNY 地圖、慈善捐贈點、零售回收與大樓紡織品收集計畫。",
+    "gap": "假設待驗證：以物品狀態和當日營業資訊篩選，可能減少只按距離選點造成的退收。",
+    "mvp": "人工維護一個街區 8 個收集點的品項矩陣，區分可再穿、乾淨破損與不收受物，提供出門前確認清單。",
+    "test": "提議測試：邀請 10 位有待處理織品的成人使用；實際交收一次成功至少 9 次，且資料無超過 30 天未核對項才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：分類表不難，但合作單位品項、天候與開放時間會變動。",
+    "caveat": "紐約實例不可推論其他城市均有同樣回收出口；不把「交給回收商」等同所有材料必然再利用。"
+  },
+  {
+    "id": 57,
+    "title": "租屋處漏風卻不清楚能做哪些小改善",
+    "category": "環境與資源",
+    "audience": "不能大幅改裝租屋的住戶",
+    "audienceType": "個人",
+    "scope": "個人",
+    "problem": "冷暖氣開著仍有門窗漏風，住戶無法把可逆的小調整與需要房東處理的工程清楚分開。",
+    "evidence": "美國能源部的租屋節能指引指出門窗縫隙會造成能量損失，並列出門底擋風、窗簾、濾網維護及其他不必大規模改建的做法。",
+    "sources": [
+      {
+        "title": "5 Tips for Energy-Saving Renters",
+        "publisher": "美國能源部 DOE",
+        "url": "https://www.energy.gov/articles/5-tips-energy-saving-renters",
+        "published": "2023-07-19",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "能源部租屋指南、原廠設備手冊與房東維護管道。",
+    "gap": "假設待驗證：把租戶可執行項目與需先詢問房東的項目分開，可能提高安全的小改善完成率。",
+    "mvp": "做 10 分鐘巡檢卡，記錄門窗問題、可逆措施、需許可項目及改善前後主觀感受，不自動估算省電金額。",
+    "test": "提議測試：請 8 位租戶試用兩週；至少 6 位完成一項已獲准的小改善，且零項阻擋必要通風或逃生出口才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：首版是清單與紀錄，可避開施工與自動控制。",
+    "caveat": "美國氣候與住宅型態不同，應改寫為在地版本。須遵守租約與設備通風要求；不得封閉燃燒設備進氣或擅改電路。"
+  },
+  {
+    "id": 58,
+    "title": "打烊後仍在耗能的設備沒人追蹤",
+    "category": "環境與資源",
+    "audience": "小型辦公室、工作室或店面的負責人",
+    "audienceType": "小企業",
+    "scope": "地方",
+    "problem": "關店流程只檢查門鎖，燈具與非必要設備可能持續運轉；即使巡查發現，也缺少負責人與後續驗證。",
+    "evidence": "ENERGY STAR 的 Energy Treasure Hunt 指南建議在非營業時間巡查，找出原應關閉卻仍運轉的設備，並要求把改善項目、責任與後續計畫整理給管理者。",
+    "sources": [
+      {
+        "title": "Energy Treasure Hunt: A How-to Guide",
+        "publisher": "ENERGY STAR／美國環境保護署",
+        "url": "https://www.energystar.gov/sites/default/files/2024-11/14336_ENERGY_STAR_Treasure_Hunt_Lite_Guide_v06_508.pdf",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "ENERGY STAR 尋寶式能源巡檢、設備排程與建築能源管理系統。",
+    "gap": "假設待驗證：小場域可能需要比完整稽核更短的打烊清單與改善追蹤，但未確認其付費需求。",
+    "mvp": "與一間工作室整理 15 項設備，標記必須常開／可關閉／待確認，並為已核准的改善加上責任人與照片紀錄。",
+    "test": "提議測試：試行兩週，至少 90% 營業日完成關店檢核，且一項非必要運轉經管理者確認消除、零項必要設備誤關才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：工具簡單，但設備用途及安全停機條件必須由場域負責人核對。",
+    "caveat": "不控制消防、保全、伺服器、醫療或其他需持續運轉設備；未量測前不得宣稱節電比例，營業資料不公開。"
+  },
+  {
+    "id": 59,
+    "title": "看不見的用水漏失直到帳單才被發現",
+    "category": "環境與資源",
+    "audience": "可自行讀取獨立水表的住戶",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "馬桶或管線的微小漏水沒有明顯水漬，住戶只靠帳單回想，不知怎樣留下可交給水電師傅的初步紀錄。",
+    "evidence": "EPA WaterSense 建議在無人用水的期間比較前後水表讀數，也建議檢查馬桶的無聲漏水；官方並說明漏水除了耗水，亦可能造成住宅損壞。",
+    "sources": [
+      {
+        "title": "Home Maintenance",
+        "publisher": "美國環境保護署 EPA WaterSense",
+        "url": "https://www.epa.gov/watersense/home-maintenance",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "供水公司的漏水通知、智慧水表、漏水感測器與 WaterSense 檢查表。",
+    "gap": "假設待驗證：不用買硬體的讀表紀錄與異常交接摘要，可能讓住戶更早安排查修。",
+    "mvp": "做僅儲存在手機的讀表表單，記錄時間、讀數、是否有用水及照片，輸出供師傅參考的紀錄而非故障診斷。",
+    "test": "提議測試：由 8 戶依供水單位指引各做一次讀表測試；至少 7 戶能留下可比對紀錄，所有異常均被標成待查而非確診才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：不需連接水表 API，手動記錄已能測試流程。",
+    "caveat": "共用水表、補水設備或灌溉會影響判讀；不能保證測試陰性就沒有漏水。僅在安全可達處讀表，修理由合格人員處理。"
+  },
+  {
+    "id": 60,
+    "title": "雨水桶裝好後缺少持續保養",
+    "category": "環境與資源",
+    "audience": "已有雨水收集桶的庭院或社區花圃",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "雨水桶啟用後，濾網、溢流口與防蚊構件沒有固定檢查，落葉堵塞或破損可能直到大雨時才被發現。",
+    "evidence": "西雅圖雨水桶使用手冊要求清理頂部落葉與溢流通道、維持防蚊措施，並提醒溢流不應傷及地基；手冊明示桶內水不是飲用水。",
+    "sources": [
+      {
+        "title": "Seattle Rain Barrel User Guide（2011 年修訂版）",
+        "publisher": "西雅圖市 Seattle Conservation Corps／Public Utilities",
+        "url": "https://www.seattle.gov/documents/departments/spu/environmentconservation/archive/rainbarreluserguide.pdf",
+        "published": "2011",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "廠商手冊、市府雨水桶指南與園藝維護服務。",
+    "gap": "假設待驗證：在桶旁放一張可快速更新的季節檢核卡，可能減少設備建成後無人接手的情況。",
+    "mvp": "為三座既有雨水桶建立編號與四項目視檢核：濾網、溢流、防蚊、周邊積水；必要調整交由設施管理者處理。",
+    "test": "提議測試：一個花圃試行 6 週；每桶至少完成三次檢查，已發現問題 7 天內有負責人與處理狀態達 90% 才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：紀錄工具簡單，但排水配置與場地安全需現場確認。",
+    "caveat": "此來源為較早的西雅圖設備手冊，不是本地設計標準。首版不改接管線、不設計坡地滲排，不把雨水用於飲用、烹調或食品處理。"
+  },
+  {
+    "id": 61,
+    "title": "灑水系統在沒人看見時灑錯地方",
+    "category": "環境與資源",
+    "audience": "管理小型景觀綠地的人員",
+    "audienceType": "小企業",
+    "scope": "地方",
+    "problem": "自動灑水多在清晨或夜間啟動，噴頭歪斜、損壞或灑向人行道時不易被平日巡查發現。",
+    "evidence": "EPA 指出噴灌常在夜間或清晨運作，故障噴頭不易察覺；噴向硬鋪面的水會流向排水系統，並建議逐區檢查、標記故障和調整方向。",
+    "sources": [
+      {
+        "title": "Sprinkler Spruce-Up",
+        "publisher": "美國環境保護署 EPA WaterSense",
+        "url": "https://www.epa.gov/watersense/sprinkler-spruce-up",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "WaterSense 灑水檢核表、智慧灌溉控制器與景觀維護服務。",
+    "gap": "假設待驗證：把異常點位與修復前後照片放在同一張圖上，可能改善巡檢者和維修者之間的交接。",
+    "mvp": "在一片綠地人工建立 20 個噴頭點位，安排白天短時檢查，記錄偏轉、積水與待專業確認項。",
+    "test": "提議測試：兩名人員檢查同一區；異常標註一致率達 85%，且所有已核准修復均附複查紀錄才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：需實地運轉與設施許可，但不必自製感測器或控制器。",
+    "caveat": "不以單次巡查推估年度節水量；灌溉用水限制及植物需水量須依當地規範與園藝人員判斷，不自動調整系統。"
+  },
+  {
+    "id": 62,
+    "title": "街區遮蔭缺口沒有足夠細的資料",
+    "category": "環境與資源",
+    "audience": "規劃遮蔭與休息空間的里辦公室或社區團體",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "討論應在哪裡增設遮蔭時，只有全市氣溫或零散印象，無法比較同一時段各街角的曝曬與可休息條件。",
+    "evidence": "NOAA 的 2023 年社區熱島計畫以不同時段的在地量測描繪熱點；過往地圖被用於植樹與公車候車亭等降溫措施，顯示街區尺度資料具有具體用途。",
+    "sources": [
+      {
+        "title": "NOAA, communities to map heat inequities in 14 states, 1 international city",
+        "publisher": "美國國家海洋暨大氣總署 NOAA",
+        "url": "https://www.noaa.gov/news-release/noaa-communities-to-map-heat-inequities-in-14-states-1-international-city",
+        "published": "2023-04-04",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "NOAA／Heat.gov 熱島資料、地方樹冠圖與專業都市氣候調查。",
+    "gap": "假設待驗證：小範圍、附量測限制的遮蔭點位表，可能幫助社區形成可討論的改善優先序。",
+    "mvp": "與一位環境專業者合作，設計 12 個固定點的遮蔭、座椅與量測紀錄卡，採相同儀器及時段，輸出不含個人軌跡的地圖。",
+    "test": "提議測試：兩名調查者完成兩次安全時段巡查；資料完整率至少 90%，並有三個候選點能由紀錄支持且獲專業覆核才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀評估：地圖可快速製作，但溫度量測偏差與解讀需專業協助。",
+    "caveat": "美國計畫證明方法用途，不代表本地熱點已被確認。避免極端高溫外出，不能把單次測值當成長期風險或個人安全判定。"
+  },
+  {
+    "id": 63,
+    "title": "雨前排水口巡查與通報沒有交接",
+    "category": "環境與資源",
+    "audience": "參與排水口認養的社區志工",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "大雨前有人巡過排水口，但其他人不知道哪些已清理、哪些需要市府處理，可能重複出勤或漏掉已回報的堵塞。",
+    "evidence": "舊金山公用事業委員會表示人力無法在每場雨前照顧所有排水口，因此設有認養與 311 通報；安全指引要求只清理格柵表面，暴雨或積水時交由官方處理。",
+    "sources": [
+      {
+        "title": "Adopt a Drain SF: About Us",
+        "publisher": "舊金山公用事業委員會 SFPUC",
+        "url": "https://adoptadrain.sfwater.org/about",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "Drain Clearing Safety Tips",
+        "publisher": "舊金山公用事業委員會 SFPUC",
+        "url": "https://adoptadrain.sfwater.org/drain-clearing-safety-tips",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "Adopt a Drain 官方認養平台、降雨前電子郵件與 SF311 通報。",
+    "gap": "假設待驗證：既有認養者可能需要隊內交班與案件追蹤；不應再建立競爭的認養名單。",
+    "mvp": "替一隊已參與認養的成人志工做 15 個排水口的檢查狀態表，只記最後巡查、表面狀況與官方案件編號。",
+    "test": "提議測試：以兩次官方雨前提醒為觀察期；所有點位都有明確狀態、所有須通報項都有案件編號，且零人進入積水或搬動格柵才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀評估：需取得既有計畫同意並維持安全分工，表格本身容易。",
+    "caveat": "舊金山管網與權責不等於其他城市。不可在暴雨中清理、涉水、進入車道或處理尖銳及危險廢棄物；此工具不能保證防洪。"
+  },
+  {
+    "id": 64,
+    "title": "野火煙霧來時才找室內防護設定",
+    "category": "環境與資源",
+    "audience": "居住在可能受野火煙霧影響地區的家庭",
+    "audienceType": "家庭",
+    "scope": "地方",
+    "problem": "空氣品質惡化時才翻找空調說明，不確定哪個房間與既有設備適合減少室外煙霧進入，臨時操作容易漏掉散熱與撤離條件。",
+    "evidence": "EPA 指引說明可事先規劃較乾淨的室內空間、確認空調與過濾方式；也指出若無法保持涼爽、停電或煙霧仍大量進入，應尋找其他場所並遵從撤離指示。",
+    "sources": [
+      {
+        "title": "Create a Clean Room to Protect Indoor Air Quality During a Wildfire",
+        "publisher": "美國環境保護署 EPA",
+        "url": "https://www.epa.gov/emergencies-iaq/create-clean-room-protect-indoor-air-quality-during-wildfire",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "EPA 多語指引、AirNow／地方空氣品質警示與設備原廠手冊。",
+    "gap": "假設待驗證：平時完成一份與家中設備對應的準備卡，可能比煙霧發生時閱讀通用長文更容易執行。",
+    "mvp": "做可離線保存的準備模板，讓住戶填入設備手冊連結、專業確認的設定、備用去處與官方警報來源。",
+    "test": "提議測試：請 6 戶在無煙霧的日子做桌上演練；至少 5 戶能在 3 分鐘找到正確設備說明，所有人均辨識「撤離／過熱時不可只關窗待在家」才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：模板不難，但設備相容性與安全文字需依官方文件核對。",
+    "caveat": "僅是環境準備工具，不提供醫療建議或判定何時安全留在家中；不以真實煙霧暴露做測試，不代替官方撤離及健康指示。"
+  },
+  {
+    "id": 65,
+    "title": "入侵藤蔓移除活動後缺少複查",
+    "category": "環境與資源",
+    "audience": "參與小花蔓澤蘭防治的社區團體",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "志工完成一次拔除後，照片和範圍散落在群組，下一季接手者難以知道哪些地方需要優先複查。",
+    "evidence": "臺灣林務局 2022 年公告指出，小花蔓澤蘭生長與擴散能力強，仍須持續防治；開花結實前有適合防治的時機，並已透過政府、企業與社區合作移除。",
+    "sources": [
+      {
+        "title": "小花蔓澤蘭防治月活動開跑 防除「世界百大入侵種」要及時",
+        "publisher": "行政院農業委員會林務局（現林業及自然保育署）",
+        "url": "https://www.forest.gov.tw/about/news/0069874",
+        "published": "2022-08-09",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "林業保育機關防治活動、地方工作站與志工照片紀錄。",
+    "gap": "假設待驗證：把已經專家確認的點位、移除日期與複查安排連起來，可能改善持續防治交接。",
+    "mvp": "與既有防治隊共同做 10 個已確認點位的作業卡，照片固定角度，記錄範圍、作業與下次複查，不做自動物種判定。",
+    "test": "提議測試：由防治人員覆核 10 張卡，至少 9 張可讓另一組找到同一範圍；每點均有複查日期，且零起誤拔原生植物才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀評估：需要植物辨識、土地許可與現場作業專業，軟體只處理交接。",
+    "caveat": "來源為臺灣 2022 年防治公告，不使用其中面積數字描述今日現況。不得鼓勵未經辨識自行拔除、用藥、焚燒或進入危險坡地。"
+  },
+  {
+    "id": 66,
+    "title": "鳥撞玻璃熱點沒有留下可用紀錄",
+    "category": "環境與資源",
+    "audience": "管理低樓層公共建築的社區團體",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "人員零星發現窗下鳥撞痕跡，卻不知道是否集中在特定玻璃，改善後也缺乏一致的巡查紀錄。",
+    "evidence": "美國魚類及野生動物管理局指出，玻璃反射植被與天空會造成鳥撞；低樓層建築、住家和小型玻璃設施亦有風險，並提供窗外圖案與監測指引。",
+    "sources": [
+      {
+        "title": "Threats to Birds: Collisions (Buildings & Glass)",
+        "publisher": "美國魚類及野生動物管理局 USFWS",
+        "url": "https://www.fws.gov/story/threats-birds-collisions-buildings-glass",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "USFWS 防鳥撞工具包、鳥類保育組織指引與專業玻璃改善產品。",
+    "gap": "假設待驗證：以窗面編號與固定巡查時段記錄，可能幫助管理者選擇需要專家評估的窗戶。",
+    "mvp": "替一棟建築建立 12 面窗的平面圖、非侵入式觀察紀錄與管理者確認欄；改善設計另請鳥類保育人員確認。",
+    "test": "提議測試：連續四週由兩人交替巡查，完成率達 85%，且至少 90% 紀錄可定位到明確窗面才通過；不以短期鳥撞數下降宣稱成效。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：窗面紀錄可簡單實作，但生態效果需要較長監測及專業評估。",
+    "caveat": "美國證據不代表本地鳥種與風險相同；不接觸傷鳥、巢或屍體，不做誘鳥實驗，救傷與高處施工交由合格單位。"
+  },
+  {
+    "id": 67,
+    "title": "公車圖示不動時分不清停車或資料中斷",
+    "category": "交通與居住",
+    "audience": "仰賴即時交通資訊的通勤者",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "看見公車圖示停在原處或消失，無法判斷車輛是否真的停止服務，可能因此錯過車或改走不必要的備案。",
+    "evidence": "蒙特婁 ARTM 的官方 FAQ 說明，裝置、車載連線與地形都可能影響連線；網路不可用時地圖圖示可能不顯示。這支持「資料缺失不等於車輛不存在」的問題。",
+    "sources": [
+      {
+        "title": "Why is my bus or train not moving on the map?",
+        "publisher": "蒙特婁都會區交通管理局 ARTM",
+        "url": "https://www.artm.quebec/en/faq/why-is-my-bus-or-train-not-moving-on-the-map/",
+        "published": "2020-05-25",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "ARTM Chrono 等官方即時交通工具與各業者時刻表、客服公告。",
+    "gap": "假設待驗證：在車輛位置旁明確顯示資料時間和中斷狀態，可能減少把舊資料當成即時狀況的誤判。",
+    "mvp": "用一條路線的人工製作測試畫面，呈現即時、過期、無資料三種狀態，並提供官方公告入口，不先串接營運系統。",
+    "test": "提議測試：請 12 位通勤者判讀 9 個模擬情境；至少 10 人能全部辨識無資料不等於停駛，且整體狀態判讀正確率達 90% 才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：資訊設計可快速驗證，真正上線則需要可靠且授權的更新時間欄位。",
+    "caveat": "來源為 2020 年特定系統 FAQ，不代表今日所有業者的故障率或更新頻率；原型不能保證到站時間，也不能以抓取失敗宣告停駛。"
+  },
+  {
+    "id": 68,
+    "title": "臨時站牌搬遷資訊與原站脫節",
+    "category": "交通與居住",
+    "audience": "搭乘受到施工影響公車的乘客",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "抵達熟悉的站牌才發現停靠位置搬到街口另一側，施工搬站與活動改道資訊又分散在不同公告。",
+    "evidence": "SFMTA 的臨時站位頁說明，施工影響的替代站可能在對街、鄰近街口或既有站；特殊活動造成的調整則需查另一個交通公告頁。",
+    "sources": [
+      {
+        "title": "Temporary Stop Relocations",
+        "publisher": "舊金山交通局 SFMTA",
+        "url": "https://www.sfmta.com/travel-updates/temporary-stop-relocations",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "SFMTA 臨時站位地圖與表格、Travel and Transit Updates 公告。",
+    "gap": "假設待驗證：從「原本要搭的站」直接顯示替代點、適用方向與時間，可能減少在多頁公告間查找。",
+    "mvp": "人工整理一條路線的 5 個施工搬站案例，製作原站與替代站對照卡，保留官方來源及最後確認時間。",
+    "test": "提議測試：讓 10 位乘客以公告和對照卡各找三個替代站；對照卡組至少 9 人全對，找尋中位時間較原公告少 30% 才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：可從少量案例開始，但施工日期與站向必須持續核對。",
+    "caveat": "以舊金山服務設計為例，不把歷史案例當成即時改道。資料不完整時回到官方公告，不臆測安全步行路線或穿越施工區。"
+  },
+  {
+    "id": 69,
+    "title": "共享單車到目的地才發現滿站",
+    "category": "交通與居住",
+    "audience": "使用 YouBike 接駁的騎乘者",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "出發時只確認有車可借，抵達後才發現目的站沒有空柱，臨時改站會增加不確定的步行與還車時間。",
+    "evidence": "YouBike 的 2026 年服務公告明確提供無位可還時的滿站增時功能，並提醒使用者仍需在原站等候或前往鄰站完成還車。",
+    "sources": [
+      {
+        "title": "無位可還怎麼辦？請使用【滿站增時】功能",
+        "publisher": "YouBike 微笑單車",
+        "url": "https://www.youbike.com.tw/region/hsinchu/news/service/636dadfab4d24b651b690267/",
+        "published": "2026-02-11",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "YouBike2.0 APP「滿站增時」功能提前於12/1上線",
+        "publisher": "臺北市政府交通局",
+        "url": "https://www.gov.taipei/News_Content.aspx?n=F0DDAF49B89E9413&s=523C4B6E4AC96201&sms=72544237BBE4C5F6",
+        "published": "2022-11-30",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "YouBike 官方 App 的即時車位查詢、鄰近站點與滿站增時。",
+    "gap": "假設待驗證：出發前固定確認目的站與一個備用站，可能比抵達滿站後才查找更省事；官方已有車位資訊，差異需驗證。",
+    "mvp": "為一組常用接駁行程做出發前檢查卡，連到兩個官方站點，標示預估步行區間與「即時車位不可保留」。",
+    "test": "提議測試：請 10 位既有使用者各記錄三次行程；至少 8 位能在 30 秒內找到目的與備用站資訊，且沒人誤以為已預約車位才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：先用官方入口與固定行程卡即可驗證，不必做車位預測。",
+    "caveat": "臺灣 YouBike 各地服務與版本可能不同；不承諾到站仍有位，不代替官方還車成功確認，不在騎車時要求操作手機。"
+  },
+  {
+    "id": 70,
+    "title": "只查末班發車卻漏算最後轉乘",
+    "category": "交通與居住",
+    "audience": "夜間需要跨線返家的捷運乘客",
+    "audienceType": "個人",
+    "scope": "地方",
+    "problem": "看到某站仍有末班車，卻沒有核對接續路線的最後轉乘時間、方向與適用日期，可能到轉乘站後接不上。",
+    "evidence": "臺北捷運車站時刻表特別要求轉乘旅客參閱各站首末班車時間，也提醒預定離站時間會受運行情況影響，特殊活動與天災時可另行調整。",
+    "sources": [
+      {
+        "title": "民權西路站時刻表：注意事項",
+        "publisher": "臺北大眾捷運股份有限公司",
+        "url": "https://web.metro.taipei/pages2026/WebStation/055/7",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "路線及班車資訊查詢",
+        "publisher": "臺北大眾捷運股份有限公司",
+        "url": "https://web.metro.taipei/pages2026/WebRoutePlan",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "臺北捷運路線查詢、各站首末班車時間與營運公告。",
+    "gap": "假設待驗證：把一趟跨線行程的各段限制並排，可能幫助乘客看出決定最晚出發時間的那一段。",
+    "mvp": "先人工核對 8 個常見跨線起訖組合，做日期、方向、轉乘站與官方查詢連結的檢核卡，不給即時保證。",
+    "test": "提議測試：請 12 位成人判斷 6 個模擬夜間行程；至少 10 人全部辨識需要再查轉乘限制的案例，零人把原型當成保證搭上才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：資訊卡可做，但末班資料、方向與特殊日期校驗比一般時刻查詢嚴格。",
+    "caveat": "限定臺北捷運示例，尚未整合其他運具；不能承諾接駁成功，不鼓勵奔跑趕車，異常服務以現場及官方公告為準。"
+  },
+  {
+    "id": 71,
+    "title": "卸貨前無法快速讀懂路邊使用條件",
+    "category": "交通與居住",
+    "audience": "到陌生街區送貨的小型商家",
+    "audienceType": "小企業",
+    "scope": "地方",
+    "problem": "短暫卸貨時，同一段路邊可能有不同時段、車種與用途限制，單看顏色無法完整判讀標誌。",
+    "evidence": "SFMTA 將路邊空間區分為乘客、一般、商業卸載與短時停車，並列出同一位置在不同時段切換用途的區域；官方要求查看標誌或路緣標示的時間與類型。",
+    "sources": [
+      {
+        "title": "Loading and Short-Term Parking",
+        "publisher": "舊金山交通局 SFMTA",
+        "url": "https://www.sfmta.com/es/node/44332",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "SFMTA 路邊區域指南、現場標誌與商業車輛資訊頁。",
+    "gap": "假設待驗證：在出車前依目的街區整理標誌閱讀檢查表，可能減少只記顏色、忽略時段的誤解。",
+    "mvp": "用 20 張經授權的範例標誌圖片做學習卡，讓駕駛逐項找出時段、用途、車種與時限，旁附官方規則連結。",
+    "test": "提議測試：邀請 8 位配送人員做前後測；至少 7 位正確讀出 90% 欄位，且所有人知道資訊不足時不能判定可停才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：小型學習原型可行，但標誌解讀和規則版本需主管機關或專業人員覆核。",
+    "caveat": "只研究舊金山標示系統，不提供個案法律結論、罰單申訴建議或停車保證；不在行駛中使用，也不蒐集車牌或駕駛軌跡。"
+  },
+  {
+    "id": 72,
+    "title": "滲水與潮濕維修只有一句「又發霉了」",
+    "category": "交通與居住",
+    "audience": "需要向房東回報潮濕問題的租戶",
+    "audienceType": "個人",
+    "scope": "個人",
+    "problem": "牆面或窗邊反覆潮濕，訊息只附一張照片，缺少時間、位置與是否再度濕掉的紀錄，讓維修追蹤難以接續。",
+    "evidence": "EPA 住宅黴菌指南指出控制水分是關鍵，應處理漏水來源而非只清除表面；也說明及時乾燥受潮材料與觀察凝結水的重要性。",
+    "sources": [
+      {
+        "title": "A Brief Guide to Mold, Moisture and Your Home",
+        "publisher": "美國環境保護署 EPA",
+        "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "房東維修管道、物業報修系統、EPA 防潮指南與專業檢查。",
+    "gap": "假設待驗證：標準化的濕氣紀錄與維修後複查，可能讓租戶和管理者更容易分辨尚未解決的問題。",
+    "mvp": "做本機照片日誌，固定記位置、發現日期、可見水跡、已回報時間與後續狀態，匯出給使用者自行選擇接收人。",
+    "test": "提議測試：讓 6 位租戶用模擬案例建檔，由維修人員盲評；至少 5 份無需補問即可定位與安排檢查，且零份自行宣稱黴菌種類或健康診斷才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：主要是欄位與時間軸，不需感測器或自動辨識黴菌。",
+    "caveat": "美國指引不等於本地租賃權責。工具不判定疾病、住宅適居性或責任歸屬；大範圍污染、污水與結構問題交由專業人員評估。"
+  },
+  {
+    "id": 73,
+    "title": "搬家後不知道住警器何時到期",
+    "category": "交通與居住",
+    "audience": "入住已有住宅用火災警報器房屋的家庭",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "住警器看似正常，住戶卻不知道製造日期、型號、最近測試時間與該依哪份手冊更換。",
+    "evidence": "美國消防署強調住警器需要定期測試，使用年限與製造日期有關；不同電源與電池型式有不同維護要求，並要求遵照廠商說明。",
+    "sources": [
+      {
+        "title": "Smoke Alarms",
+        "publisher": "美國消防署 USFA",
+        "url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/index.html",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "警報器原廠標籤與手冊、消防機關宣導、家用維護提醒。",
+    "gap": "假設待驗證：搬入時建立每台設備的辨識與維護卡，可能減少只換電池卻忽略整機年限的情況。",
+    "mvp": "做一戶住宅的設備卡模板，記錄房間、型號、製造日期、官方手冊與使用者完成的測試日期，未知欄位明確留白。",
+    "test": "提議測試：請 8 戶建立卡片；至少 7 戶能辨識所有可安全查看設備的型號與日期或標明待專業確認，且零人把填表當成檢測合格才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：資訊整理與提醒不複雜，無須控制或拆卸警報器。",
+    "caveat": "消防規範與產品年限以所在地及廠商為準；硬接線設備由合格人員處理，不停用警報器、不保證火災安全，住戶無法安全取用時應尋求協助。"
+  },
+  {
+    "id": 74,
+    "title": "共用烘衣機清絨屑與排氣保養沒人接手",
+    "category": "交通與居住",
+    "audience": "管理共用洗衣空間的住戶組織",
+    "audienceType": "社區組織",
+    "scope": "地方",
+    "problem": "使用者以為別人會清濾網，管理者又缺少外部排氣口與維護服務紀錄，日常清潔和專業保養責任容易混在一起。",
+    "evidence": "美國消防署的烘衣機安全單張指出，未清理絨屑濾網與排氣通道會增加火災風險，並分別列出每次使用的濾網清理與專業安裝保養要求。",
+    "sources": [
+      {
+        "title": "Clothes Dryer Fire Safety",
+        "publisher": "美國消防署 USFA",
+        "url": "https://www.usfa.fema.gov/downloads/pdf/publications/clothes_dryer_fire_safety_flyer.pdf",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "烘衣機原廠手冊、消防宣導與專業排氣管清潔服務。",
+    "gap": "假設待驗證：把使用者可做的清理與管理者安排的保養分開，可能減少共用設備的責任空白。",
+    "mvp": "為一台排氣式共用烘衣機做三欄紀錄：使用後清潔、異常停用回報、管理者保養紀錄；不提供拆機教學。",
+    "test": "提議測試：一個共用空間試行兩週；使用後紀錄率達 90%，全部模擬異常能在一次回報內找到負責人，且零人自行拆開設備才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀評估：需住戶與管理者共同採用，但原型可以紙本完成。",
+    "caveat": "適用設備需由管理者確認，熱泵或無排氣管機型不可直接套用；不在真實危險情況測試，不以填表替代專業檢查。"
+  },
+  {
+    "id": 75,
+    "title": "漏水時找不到家中總水閥與維修聯絡",
+    "category": "交通與居住",
+    "audience": "剛搬入或交接房屋的成人住戶",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "管線突然漏水時才發現總水閥位置、可操作範圍和聯絡人沒有交接，新住戶需要一邊找人一邊找設備。",
+    "evidence": "Water UK 的居家用水指南建議住戶事先知道室內總水閥位置與是否可用，也區分住宅內管線與供水業者設施的責任範圍。",
+    "sources": [
+      {
+        "title": "Looking after water in your home",
+        "publisher": "英國供水產業協會 Water UK",
+        "url": "https://www.water.org.uk/sites/default/files/wp/2019/06/Water-In-The-Home-2015-FINAL.pdf",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "供水業者指南、房東或物業交屋說明與水電師傅。",
+    "gap": "假設待驗證：由房屋管理者確認的單頁設備交接卡，可能讓新住戶更快找到正確聯絡與位置。",
+    "mvp": "讓房東或合格技師協助標註一戶住宅已確認的室內水閥照片、不能操作的公用設施與維修聯絡人，僅供住戶離線保存。",
+    "test": "提議測試：請 6 位新住戶做不轉動閥門的演練；至少 5 位能在兩分鐘內找到正確位置與聯絡人，且零人將共用設施當成私人可操作設備才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀評估：交接卡可快速建立，但內容必須由知道現場系統的人確認。",
+    "caveat": "來源為英國住宅制度，不能推論其他地區管線權責。只記已確認的用水設施，不指導燃氣、電氣或不明閥門操作；門牌、室內照片與聯絡資料不公開。"
+  },
+  {
+    "id": 76,
+    "title": "家中電器型號對不上召回公告",
+    "category": "生活與消費",
+    "audience": "想確認既有燈具與小家電安全的家庭",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "看到召回新聞後，屋主仍要翻找機身底部型號、原始吊牌與購買紀錄，才能確認外觀相似的自家產品是否在範圍內。",
+    "evidence": "CPSC 於 2026-10-01 公告兩款 Cupcakes and Cashmere 落地燈召回；公告區分型號與商店款號，並說明型號貼於底座下方、款號在原始價格吊牌。",
+    "sources": [
+      {
+        "title": "Designs Direct Recalls Cupcakes and Cashmere Brand Three-Light Floor Lamps",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/Recalls/2027/Designs-Direct-Recalls-Cupcakes-and-Cashmere-Brand-Three-Light-Floor-Lamps-Due-to-Risk-of-Serious-Injury-from-Fire-and-Burn-Hazards",
+        "published": "2026-10-01",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "CPSC 召回資料庫、製造商召回頁與產品標籤已提供查核資料。",
+    "gap": "假設：購買時先保存型號與標籤位置，可能縮短日後核對時間；尚未證明家庭願意持續登錄。",
+    "mvp": "做一份本機產品卡：型號、購買日期、標籤照片與官方查核連結。先人工核對 20 件產品，不自動判定安全。",
+    "test": "擬議測試：邀 6 戶各處理 3 組已知型號案例；至少 5 戶能在每組 3 分鐘內找齊核對欄位，且無一例把型號不明當作未召回，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：小量產品卡與人工核對不需串接商店；全面自動配對的可靠性另當別論。",
+    "caveat": "案例限美國指定型號；網址中的 2027 是來源路徑，公告日期為 2026-10-01。未查到召回不代表產品安全；實際處置以官方當期公告為準。"
+  },
+  {
+    "id": 77,
+    "title": "散裝鋰電芯被當成一般替換電池",
+    "category": "生活與消費",
+    "audience": "購買小風扇、頭燈替換電池的成人",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "網購頁面把散裝 18650 電芯描述成一般消費電池，買家可能不知道它原本是電池組工業零件，也不知道需要向設備原廠核對。",
+    "evidence": "CPSC 警告，有原供電池組使用的 18650 電芯被拆出、重新包裝後在網路販售；裸露端子接觸金屬及不適當充電均可能造成危險。",
+    "sources": [
+      {
+        "title": "La CPSC emite advertencia de seguridad del consumidor sobre celdas de baterías de iones de litio",
+        "publisher": "U.S. Consumer Product Safety Commission",
+        "url": "https://www.cpsc.gov/es/Newsroom/News-Releases/2021/CPSC-Issues-Consumer-Safety-Warning-Serious-Injury-or-Death-Can-Occur-if-Lithium-Ion-Battery-Cells-Are-Separated-from-Battery-Packs-and-Used-to-Power-Devices",
+        "published": "2021-01-08",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "官方電池安全警告、設備原廠說明書及客服可供查詢。",
+    "gap": "假設：在選購當下展示電芯與完整替換電池的差別，可能降低誤認；資訊提示的行為效果仍待測試。",
+    "mvp": "製作離線購前查核卡，整理原廠料號、設備適用型號、產品警告與來源連結；遇到資訊不明便標示需向原廠確認。",
+    "test": "擬議測試：以 12 份模擬商品頁請 8 位成人判讀；至少 7 人能辨認所有資訊不足案例並選擇詢問原廠，才通過。不讓受測者實際充電或拆電池。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：資訊卡容易製作，但電池類型和術語需請產品安全專業者檢閱。",
+    "caveat": "依美國 CPSC 警告，不以外觀或尺寸認證電池安全，不提供拆解、改裝或充電試驗；跨地區仍須查當地主管機關與原廠。"
+  },
+  {
+    "id": 78,
+    "title": "食品召回難核對到手上的批號",
+    "category": "生活與消費",
+    "audience": "家中有多批同品牌包裝食品的採買者",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "同品牌商品只有特定批號或日期被召回時，家庭需要保留包裝資訊並在多個官方來源之間核對，不能只看品牌名稱。",
+    "evidence": "FDA 說明召回通知可包含 UPC、批號、保存期限、包裝照片與販售地區；FDA 與 USDA 分管不同食品，且並非所有召回都列於公開警示頁。",
+    "sources": [
+      {
+        "title": "Food Recalls: What You Need to Know",
+        "publisher": "U.S. Food and Drug Administration",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-recalls-what-you-need-know",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "FDA Enforcement Report、FDA 召回訂閱、USDA 召回資訊及廠商通知已存在。",
+    "gap": "假設：把已購食品的批號照片與公告並排呈現，可能減少核錯批次；此處並未證明既有服務無法做到。",
+    "mvp": "針對 10 種包裝格式，做可手動填批號、日期與購買地區的核對頁，列出相符、不符及資訊不足三種結果並連回原文。",
+    "test": "擬議測試：用 30 組人工標註的公告與包裝配對測試；所有真正相符案例都被攔下，且資訊不足案例全部保持未確認，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：人工可建立小型配對樣本，但批號 OCR 與公告格式差異需要額外驗證。",
+    "caveat": "原型先限美國食品召回；不宣告食品可安全食用，不假定資料即時完整，處理方式遵循該批次官方通知。"
+  },
+  {
+    "id": 79,
+    "title": "包裝食品的過敏原資訊散在不同欄位",
+    "category": "生活與消費",
+    "audience": "需要仔細閱讀包裝成分標示的成人採買者",
+    "audienceType": "個人",
+    "scope": "個人",
+    "problem": "同一包食品的成分表、含有聲明與可能含有警語並不等同，讀者需要逐欄查看，容易把沒有某項警語誤當成沒有風險。",
+    "evidence": "FDA 說明主要過敏原可標在成分名稱旁或含有聲明中；可能含有等交叉接觸警語屬自願標示，且規則不涵蓋所有現場包裝食品。",
+    "sources": [
+      {
+        "title": "Food Allergies",
+        "publisher": "U.S. Food and Drug Administration",
+        "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "包裝成分表、FDA 標示說明、製造商客服與既有標籤閱讀工具可協助查核。",
+    "gap": "假設：保留原圖並分欄標示文字，可能比只輸出可吃或不可吃更有助核對；尚未驗證閱讀錯誤是否減少。",
+    "mvp": "以公開包裝範例做三欄閱讀輔助頁，呈現原文、文字位置與不確定處；不收集個人健康資料，也不做飲食推薦。",
+    "test": "擬議測試：由食品標示專業者建立 20 個答案，再邀 8 位成人找出三類資訊；至少 7 人答對 90%，且沒有人把警語缺席理解成安全保證，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：介面不難，但安全關鍵的文字分類與措辭必須經食品標示專業審閱。",
+    "caveat": "依美國 FDA 包裝標示框架；其他地區標示規則不同。不是醫療或個人飲食建議，不能由 OCR 結果排除過敏原。"
+  },
+  {
+    "id": 80,
+    "title": "分裝冷藏食品忘記開封或烹調時間",
+    "category": "生活與消費",
+    "audience": "會把食物分裝進保鮮盒的家庭",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "食品離開原包裝或做成熟食後，盒子若只寫品名，下一次取用的人便難知道何時開封、烹調，以及應查哪一類保存指引。",
+    "evidence": "FoodSafety.gov 的冷藏表對已開封與未開封肉品列出不同期限，並將熟肉、湯品與披薩等剩食列為短期冷藏項目；表格以指定冷藏溫度為前提。",
+    "sources": [
+      {
+        "title": "Cold Food Storage Chart",
+        "publisher": "FoodSafety.gov",
+        "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "FoodKeeper、官方冷藏表、紙本日期貼紙與保鮮盒標記已可使用。",
+    "gap": "假設：以開封或烹調事件建立可擦寫日期卡，可能比單純到期提醒更容易維持正確紀錄；家庭採用意願未驗證。",
+    "mvp": "先做 5 種常見熟食的可列印標籤，記錄品名、烹調／開封時間、冷藏時間及官方資料連結，不輸出安全認證。",
+    "test": "擬議測試：請 6 戶試用 7 天；至少 5 戶能在抽查的 10 個容器中找回 9 個正確時間，且記錄平均不超過 20 秒，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：紙卡即可測試記錄負擔，不必建感測器或判斷食物狀態。",
+    "caveat": "來源為美國家庭保存指引，頁面最後檢閱日為 2023-09-19，未標首次發布日。時間紀錄不能證明溫控正常，不能取代包裝指示或食品安全判斷。"
+  },
+  {
+    "id": 81,
+    "title": "清潔用品混用警告在使用時看不到",
+    "category": "生活與消費",
+    "audience": "使用多種家庭清潔用品的成人",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "清潔時同一區域可能先後使用不同產品，而瓶身背面的小字警告、通風與接觸時間指示未被帶到實際工作流程。",
+    "evidence": "CDC 明確警告不要把漂白水或消毒劑與其他清潔劑混合，並要求遵循產品標示、注意通風和必要防護；使用效果也取決於接觸時間。",
+    "sources": [
+      {
+        "title": "Cleaning and Disinfecting with Bleach",
+        "publisher": "U.S. Centers for Disease Control and Prevention",
+        "url": "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+        "published": "2024-04-24",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "產品標籤、CDC 清潔指引與原廠使用說明已有安全資訊。",
+    "gap": "假設：在用品收納處放清楚的原廠警告摘要，可能提升使用前閱讀率；沒有證據可把提示效果等同事故降低。",
+    "mvp": "只整理 6 種實際標籤的安全警告卡，突出不得混用與查看原文，不產生自製配方、濃度或化學相容性答案。",
+    "test": "擬議測試：用紙本情境請 10 位成人找出禁止混用情境及原廠指示；至少 9 人全數辨識關鍵禁忌，且無危險操作建議，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：排版簡單，但摘要漏字可能造成傷害，必須由化學品安全專業者核對。",
+    "caveat": "以美國 CDC 與所選產品標示為依據，不做實際混合測試；不明成分不能標示為可混用。"
+  },
+  {
+    "id": 82,
+    "title": "試用轉付費與取消證明分散",
+    "category": "生活與消費",
+    "audience": "同時使用多項數位訂閱服務的成人",
+    "audienceType": "個人",
+    "scope": "個人",
+    "problem": "試用截止日、續費價格、取消步驟與取消確認信分散在不同頁面，使用者要確認是否真的取消時缺少完整紀錄。",
+    "evidence": "FTC 說明試用可能在未及時取消時轉為收費，也建議保留取消要求、對話與相關紀錄，並在取消後核對是否仍有收費。",
+    "sources": [
+      {
+        "title": "Getting In and Out of Free Trials, Auto-Renewals, and Negative Option Subscriptions",
+        "publisher": "Federal Trade Commission",
+        "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+        "published": "2024",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "服務自己的訂閱頁、取消確認信、行事曆提醒與人工帳單核對已可使用。",
+    "gap": "假設：將截止日和取消證明放在同一張卡，可能比只有續費提醒更實用；付費需求與節省金額未證實。",
+    "mvp": "手動登錄 5 項訂閱，保存官方取消連結、續費日期、方案價格與確認畫面，明確區分已提出與已確認取消。",
+    "test": "擬議測試：讓 8 人用模擬訂閱完成取消紀錄；至少 7 人能在 2 分鐘內指出下一次收費日與確認證據，且不把未確認當完成，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：手動資料與狀態卡不需帳戶授權，也不需讀取銀行資訊。",
+    "caveat": "FTC 來源是美國消費者指引；不據此宣稱特定取消法規目前適用。原型不自動取消、申訴或處理付款，平台條款需逐項核對。"
+  },
+  {
+    "id": 83,
+    "title": "陌生網店的關鍵資訊難在下單前核對",
+    "category": "生活與消費",
+    "audience": "從廣告連結進入陌生網店的消費者",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "看到低價與高星評價後，買家還要另查賣家身分、退貨政策與外部評價；單靠網頁看起來專業無法完成這些核對。",
+    "evidence": "FTC 的網購指引提醒不要只依賴星等，因為評價可能造假或誤導，並建議查賣家資訊、交貨與退貨政策及保留購買紀錄。",
+    "sources": [
+      {
+        "title": "Online Shopping",
+        "publisher": "Federal Trade Commission",
+        "url": "https://consumer.ftc.gov/articles/online-shopping",
+        "published": "2023",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "搜尋引擎、平台商家資料、消費者評價網站和 FTC 查核清單已提供線索。",
+    "gap": "假設：把證據來源和仍缺的資訊並列，可能比單一可信度分數更容易讓買家看見疑點；不能由此推論能辨識所有詐騙。",
+    "mvp": "製作購前查核頁，只讓使用者手動填入商家聯絡頁、退款條款、交期與外部來源，空白項目保持未知。",
+    "test": "擬議測試：以 12 個模擬賣場請 8 人找出缺漏；至少 7 人找出 90% 的預設缺漏，且沒有因表格完整就宣稱商家可信，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：資料表與來源連結容易做，先不碰高誤判風險的自動商家評等。",
+    "caveat": "美國消費者指引可作核對參考，但平台規則與救濟管道因地而異；不公開指控真實商家，也不保證交易安全。"
+  },
+  {
+    "id": 84,
+    "title": "包裹異常簡訊誘使人離開官方查詢管道",
+    "category": "生活與消費",
+    "audience": "經常網購並接收物流通知的成人",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "收到地址錯誤或補運費簡訊時，收件人可能正好在等包裹，因而直接沿簡訊連結操作，未先從已知官方入口查證。",
+    "evidence": "FTC 對 2024 年通報的整理指出，假包裹配送問題是最常被通報的簡訊詐騙類型；其建議是自行使用已知可靠的電話或網站核對。",
+    "sources": [
+      {
+        "title": "New FTC Data Show Top Text Message Scams of 2024",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/news-events/news/press-releases/2025/04/new-ftc-data-show-top-text-message-scams-2024-overall-losses-text-scams-hit-470-million",
+        "published": "2025",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "手機垃圾簡訊過濾、物流業者官方追蹤頁與 FTC 防詐說明已存在。",
+    "gap": "假設：提供不經可疑連結的查核入口，可能降低衝動點擊；提醒是否會疲乏仍待測試。",
+    "mvp": "做離線通知判讀卡，列出常用物流業者的已驗證官方查詢入口，讓使用者自行從訂單找單號，完全不開啟簡訊中的網址。",
+    "test": "擬議測試：讓 10 人處理 8 則模擬通知；至少 9 人在可疑通知上選擇獨立官方查核，且正常通知的查詢時間中位數低於 1 分鐘，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：官方入口清單與情境測試容易實作，不需讀取整個簡訊收件匣。",
+    "caveat": "通報排名來自美國且不代表真實總發生率；各地物流入口不同。不儲存地址、驗證碼或完整簡訊，也不保證辨識真偽。"
+  },
+  {
+    "id": 85,
+    "title": "演出票券的必要附加費讓總價難比較",
+    "category": "生活與消費",
+    "audience": "跨售票平台比較同場演出票券的成人",
+    "audienceType": "個人",
+    "scope": "跨地區",
+    "problem": "票面價或搜尋結果看似較低，後續流程卻加入必要服務費；若不同平台顯示的價格基準不同，買家要走到接近結帳才有辦法重新比較總價。",
+    "evidence": "FTC 在 2024 年費用規則說明中指出，收到關於隱藏與誤導費用傷害消費者的意見；2025 年官方 FAQ 進一步區分不可避免的票務費用、稅費與使用者自行選擇的加購項目。",
+    "sources": [
+      {
+        "title": "Getting to the bottom line: The FTC’s bipartisan Junk Fees Rule and your business",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/blog/2024/12/getting-bottom-line-ftcs-bipartisan-junk-fees-rule-your-business",
+        "published": "2024",
+        "checked": "2026-10-05"
+      },
+      {
+        "title": "The Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+        "published": "2025",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "售票平台的含費總價與結帳明細、FTC 費用 FAQ，以及手動比價表已有相關資訊。",
+    "gap": "假設：保留每個報價的時間、票數與費用是否已含，可降低用不同基準比較的錯誤；已有總價揭露的市場是否仍需要獨立工具，須另行驗證。",
+    "mvp": "做同場次、同區域及相同張數的雙方案比較卡，由使用者手動輸入平台明示的票價、必要費用、稅費與選擇加購；未知費用標示未完整，不臆估也不重複加總。",
+    "test": "擬議測試：用 12 組合成票券頁面，包含已含費、未含費與資訊不全的情境，讓 8 人比較；至少 7 人答對 90%，且所有資訊不全案例都未被標為最便宜，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：人工輸入和明確加總可快速測試，不需平台爬取或付款權限；即時票價同步不在首版範圍。",
+    "caveat": "來源是美國 FTC 對特定產業的規則與說明，本題只討論現場活動票券，不推定規則全球通用或適用所有商品。文件不是 2026 年各平台現況普查；價格、座位與庫存會變動，工具不判定違法、不代購或提交付款。"
+  },
+  {
+    "id": 86,
+    "title": "保固需要時找不到收據與條款版本",
+    "category": "生活與消費",
+    "audience": "持有多件有保固家電的家庭",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "產品故障時，購買日期、購買證明、當時保固內容及報修紀錄散在郵件、紙袋與網站，難一次提供完整資料。",
+    "evidence": "FTC 建議保存保固副本並與產品收據放在一起，因收據可證明購買日期與原始買受人；保固範圍、期限和申請流程各有差異。",
+    "sources": [
+      {
+        "title": "Warranties",
+        "publisher": "Federal Trade Commission",
+        "url": "https://consumer.ftc.gov/articles/warranties",
+        "published": "2023",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "零售商訂單紀錄、原廠產品登錄、電子收據與一般文件夾都能保存證明。",
+    "gap": "假設：以產品為單位串起收據和當時條款，可能比依購物平台分類更好找；長期整理負擔尚未測量。",
+    "mvp": "製作本機保固資料袋模板，收納購買證明、保固原文、型號、報修時間線與官方客服連結，只手動標註日期。",
+    "test": "擬議測試：請 8 人為各 3 件產品建檔，一週後做模擬報修；至少 7 人能在 90 秒內找到完整資料，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：檔案整理與時間線模板即可測試，不需判定保固是否成立。",
+    "caveat": "FTC 資料以美國為背景；保固權利依產品與地區而異。遮蔽收據付款資料，不向商家自動提交，也不把提醒日當法定期限。"
+  },
+  {
+    "id": 87,
+    "title": "不同包裝與促銷單位難直接比價",
+    "category": "生活與消費",
+    "audience": "比較同類日用品或包裝食品的採買者",
+    "audienceType": "家庭",
+    "scope": "個人",
+    "problem": "同類商品有公克、毫升、每件或多入包等不同標示，促銷價又未必同步提供單位價格，買家難做同基準比較。",
+    "evidence": "NIST 2025 年單位價格指南指出標籤的一致性與可讀性不足，並提供單位不一致、單位價格缺漏及促銷標示不同步等實例。",
+    "sources": [
+      {
+        "title": "Unit Pricing Guide, NIST SP 1181e2025",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/1181e2025/NIST.SP.1181e2025.html",
+        "published": "2025",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "商店貨架單位價、線上比價、計算機與 NIST 的標示指南已提供基礎方法。",
+    "gap": "假設：手動輸入後明示換算基準與促銷條件，可能減少誤比；不假設最便宜商品就是最合適。",
+    "mvp": "做只比同品類的雙商品計算卡，輸入總價、容量、入數和會員條件；禁止在缺乏密度時換算重量與體積。",
+    "test": "擬議測試：用 20 組含多入包、折扣和不可比單位的題目測試 10 人；至少 9 人答對 90%，所有不可比情境都被標出，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：明確的單位算術即可實作；先避開自動讀價與商品品質評分。",
+    "caveat": "指南以美國零售情境為主；不推定本地商店違法，價格要由使用者確認，會員費與品質差異需另行考量。"
+  },
+  {
+    "id": 88,
+    "title": "退貨流程走完卻缺退款追蹤證據",
+    "category": "生活與消費",
+    "audience": "正在辦理網購退貨的消費者",
+    "audienceType": "個人",
+    "scope": "個人",
+    "problem": "退貨申請、寄件證明、客服承諾與退款狀態在不同頁面，使用者難確認下一步由誰處理，或重複解釋同一段經過。",
+    "evidence": "FTC 建議先查退貨期限和政策、收集單據，並記錄客服姓名、對話日期與承諾；線上客服或表單內容也應留下副本。",
+    "sources": [
+      {
+        "title": "Solving Problems With a Business: Returns, Refunds, and Other Resolutions",
+        "publisher": "Federal Trade Commission",
+        "url": "https://consumer.ftc.gov/articles/solving-problems-business-returns-refunds-and-other-resolutions",
+        "published": "2024",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "商店退貨中心、物流追蹤、客服紀錄與 FTC 問題處理清單已能提供相關證據。",
+    "gap": "假設：按事件串起申請、交件、收件、承諾和實際退款，可能減少追蹤遺漏；不保證提高退款成功率。",
+    "mvp": "做一張退貨時間線，允許手動附上去識別化截圖、下一個商家承諾日期與待確認欄位，不自動寄信或申訴。",
+    "test": "擬議測試：用 10 個模擬退貨案件讓 6 人辨認缺件和下一步；至少 5 人能在 2 分鐘內正確完成 9 案，且不把已寄出標為已退款，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：少量狀態與附件索引可迅速製作，不需要整合支付平台。",
+    "caveat": "美國消費者指引不等於其他地區的退貨權；所有期限以實際條款和當地規定核對，原型不提供爭議法律判斷。"
+  },
+  {
+    "id": 89,
+    "title": "請款單缺採購單號而無法進入付款流程",
+    "category": "小企業與數位安全",
+    "audience": "向較大企業供貨或提供服務的小公司",
+    "audienceType": "小企業",
+    "scope": "跨地區",
+    "problem": "工作已完成，但請款人未拿到客戶要求的採購單號，或把發票交給不處理付款的窗口，造成文件補件與重新送件。",
+    "evidence": "英國小企業專員指出，委託工作的人不一定負責付款；需要的採購單號若取得太晚，可能延後發票提交和付款，並列出必要請款欄位。",
+    "sources": [
+      {
+        "title": "Getting invoices right",
+        "publisher": "Office of the Small Business Commissioner, UK",
+        "url": "https://www.smallbusinesscommissioner.gov.uk/help-and-guidance/all-advice/getting-invoices-right/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "客戶供應商入口、會計軟體、發票範本與官方請款指引已有支援。",
+    "gap": "假設：在開工或交付前先查客戶的請款前置條件，可能比發票寄出後追款更有效；實際退件率需由試點驗證。",
+    "mvp": "針對 3 位客戶建立請款準備卡：付款窗口、PO 號、驗收證明、約定付款日期與送件位置；缺欄位就列入待確認。",
+    "test": "擬議測試：與 3 家小公司回看共 20 張去識別請款單；找出全部已知必填缺漏，且填卡中位時間低於 3 分鐘，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：小量客戶規則可手動建立，不需接管發票系統或做稅務計算。",
+    "caveat": "來源以英國企業請款為背景，不能推定所有延遲都由發票錯誤造成；只做行政查核，不提供稅務或付款爭議建議。"
+  },
+  {
+    "id": 90,
+    "title": "供應商改收款資訊時缺獨立確認紀錄",
+    "category": "小企業與數位安全",
+    "audience": "由少數人處理應付帳款的小公司",
+    "audienceType": "小企業",
+    "scope": "跨地區",
+    "problem": "熟悉的郵件往來突然要求更改收款帳戶，經辦人若只回覆同一封信，無法確認要求是否真的來自原供應商。",
+    "evidence": "FBI 說明商務電子郵件詐騙可偽裝熟悉來源或入侵合法帳務對話，並建議以獨立取得的聯絡方式確認付款要求與帳戶資訊變更。",
+    "sources": [
+      {
+        "title": "Business Email Compromise",
+        "publisher": "Federal Bureau of Investigation",
+        "url": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/business-email-compromise",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "銀行驗證措施、企業付款核准程序與 FBI 的 BEC 查核指引已有防線。",
+    "gap": "假設：明確區分收到變更通知與已獨立驗證，可能減少忙碌時跳步；不能代替銀行或資安防護。",
+    "mvp": "建立不儲存完整帳號的變更確認單，記錄既有聯絡人、核對管道、核對日期及第二位覆核人，禁止工具自動更新付款資料。",
+    "test": "擬議測試：請 5 家公司各跑 4 個模擬變更情境；所有來自未驗證聯絡方式的案例都維持暫停，正常案例可在 5 分鐘內完成記錄，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：表單容易做，但要配合既有核准責任，並避免錯誤的完成提示。",
+    "caveat": "FBI 案例來自美國，不代表某位供應商有問題；不付款、不傳送帳戶憑證、不保證能偵測已受控制的電話或郵件。"
+  },
+  {
+    "id": 91,
+    "title": "營業許可到期日與續辦入口分散",
+    "category": "小企業與數位安全",
+    "audience": "需要多張許可或登記的小店業者",
+    "audienceType": "小企業",
+    "scope": "地方",
+    "problem": "不同機關核發的許可各有期限、附件和辦理入口，店家若只留紙本正本，難在換人處理時完整交接續辦事項。",
+    "evidence": "SBA 說明所需許可與費用取決於活動、地點及機關，地方規則不一；部分許可會到期，業者需追蹤續辦時間。",
+    "sources": [
+      {
+        "title": "Launch your business — Apply for licenses and permits",
+        "publisher": "U.S. Small Business Administration",
+        "url": "https://www.sba.gov/counseling/launch-your-business/",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "各主管機關入口、紙本許可、行事曆與商業顧問可協助管理。",
+    "gap": "假設：將已確認持有的許可整理成附原始來源的提醒清單，可能降低交接遺漏；原型不負責推斷應申請哪些證照。",
+    "mvp": "與一間小店整理現有 5 張文件，記錄核發機關、明示到期日、續辦官方連結及承辦人，日期不明就標待確認。",
+    "test": "擬議測試：以 15 張去識別許可和續辦通知測試 5 位業者；明示日期與入口全部擷取正確，且所有缺漏均未擅自補值，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：文件與提醒容易做，但需人工核對地方來源，不能用單一規則套所有行業。",
+    "caveat": "依美國 SBA 的一般行政說明；落地時只選一地與非高度管制行業。不是法律合規認證，也不自動申請、繳費或送出文件。"
+  },
+  {
+    "id": 92,
+    "title": "一筆進貨找不到成套憑證",
+    "category": "小企業與數位安全",
+    "audience": "使用紙本收據與電子發票並行的小店",
+    "audienceType": "小企業",
+    "scope": "個人",
+    "problem": "進貨紀錄有金額卻缺品項或付款證明，月底核對時要從紙本、郵件與帳務資料找回同一筆交易的不同部分。",
+    "evidence": "IRS 說明進貨與費用的支持文件應能呈現收款人、金額、付款證明、日期及內容；一筆購買可能需要多份文件才能說明所有要素。",
+    "sources": [
+      {
+        "title": "What kind of records should I keep",
+        "publisher": "Internal Revenue Service",
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/what-kind-of-records-should-i-keep",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "電子會計系統、收據掃描與按年度、費用類別整理的文件夾已可使用。",
+    "gap": "假設：以交易為中心提示缺哪份文件，可能比單純收據掃描更方便覆核；對帳時間改善需實測。",
+    "mvp": "用去識別化單據做交易證據索引，手動配對發票、收貨與付款證明，保留待確認狀態，不決定可否抵稅。",
+    "test": "擬議測試：邀 3 位記帳人員檢查 30 筆預設有缺漏的樣本；至少找出 95% 缺漏，且無錯把不同交易合併，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：資料索引可做小型原型，但金額相同的交易需要人工確認，不宜只靠 OCR。",
+    "caveat": "IRS 說明限美國稅務紀錄背景；不提供報稅或保存年限結論。使用去識別樣本，正式資料應限制存取並避免上傳敏感帳戶資訊。"
+  },
+  {
+    "id": 93,
+    "title": "假請款單混入真實採購帳單",
+    "category": "小企業與數位安全",
+    "audience": "沒有專職採購部門的小商家",
+    "audienceType": "小企業",
+    "scope": "跨地區",
+    "problem": "收到看似正常的耗材、目錄或廣告服務帳單時，付款人無法立即找到誰下單、何時核准和是否收到，便容易把未授權項目當例行支出。",
+    "evidence": "FTC 的小企業防詐指南指出，詐騙者會寄出貌似已訂購商品或服務的假發票，也會用確認地址或免費樣品為由寄貨後催款。",
+    "sources": [
+      {
+        "title": "Scams and Your Small Business: A Guide for Business",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/908a_scams_and_your_small_business_july_2023_508.pdf",
+        "published": "2023",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "採購核准流程、會計軟體的採購單配對及 FTC 防詐指南已有對策。",
+    "gap": "假設：小店專用的下單與收貨證據欄，可能讓帳單核准更清楚；不是宣稱所有沒有 PO 的帳單都是詐騙。",
+    "mvp": "製作三項核對卡：誰核准、對應訂單、收貨／服務證明；缺資料只列待查，不自動拒付或指控寄件人。",
+    "test": "擬議測試：讓 6 位店主處理 20 張合成帳單；全部未授權樣本轉入人工確認，且至少 90% 完整真實樣本不被誤卡，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：表單和合成測試可快速完成，不碰銀行串接或交易執行。",
+    "caveat": "資料為美國常見詐騙模式，不能直接套用當地未訂購商品權利；不自動付款或發送抗議，避免公開指控真實供應商。"
+  },
+  {
+    "id": 94,
+    "title": "小公司不知道哪些重要帳號還沒開 MFA",
+    "category": "小企業與數位安全",
+    "audience": "沒有專職資訊人員的小公司負責人",
+    "audienceType": "小企業",
+    "scope": "個人",
+    "problem": "公司帳號散在郵件、檔案、商店後台與其他服務，只知道有人開過雙重驗證，卻沒有逐帳號的負責人和確認紀錄。",
+    "evidence": "NIST 的小企業入門指南提供重要帳號 MFA 檢查表，並建議建立硬體、軟體、服務清單及其管理者、存取資料和驗證狀態。",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Framework 2.0: Small Business Quick-Start Guide",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf",
+        "published": "2024",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "各服務的安全設定頁、密碼管理工具與 NIST 官方檢查表已有支援。",
+    "gap": "假設：不含機密的狀態清單可能讓負責人看見遺漏帳號；效果仍取決於人工填報是否準確。",
+    "mvp": "建立 15 個公司服務的清單，只記服務名、管理者、MFA 已確認／待確認與確認日期，提供原廠設定說明但不儲存密碼或復原碼。",
+    "test": "擬議測試：與 3 家公司用測試帳號清單比對官方設定；所有未確認項目均被列出，且至少 90% 項目能在每項 2 分鐘內完成記錄，才通過。",
+    "feasibility": "容易",
+    "effort": "週末",
+    "whyFeasibility": "主觀判斷：先做人工盤點便能驗證價值，不需管理員權限或實際更動安全設定。",
+    "caveat": "NIST 提供自願性框架而非完整安全認證；不把已開 MFA 當作零風險。設定變更與復原設計仍由帳號擁有者和資訊支援確認。"
+  },
+  {
+    "id": 95,
+    "title": "公司網域寄信驗證設定缺乏可理解的檢查結果",
+    "category": "小企業與數位安全",
+    "audience": "使用自有網域寄送訂單通知的小商家",
+    "audienceType": "小企業",
+    "scope": "跨地區",
+    "problem": "公司同時用信箱與行銷／訂單服務寄信，負責人不清楚 SPF、DKIM 和 DMARC 是否涵蓋合法寄信來源，也怕改錯設定讓通知被擋。",
+    "evidence": "FTC 說明網域缺乏郵件驗證時可能被冒用，並指出 SPF、DKIM、DMARC 配置需一定專業，設定不當可能阻擋合法郵件。",
+    "sources": [
+      {
+        "title": "Cybersecurity for Small Business — Email Authentication",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "郵件供應商設定頁、公開 DNS 檢查工具及 FTC 驗證說明已可使用。",
+    "gap": "假設：把檢查結果和已知寄信服務逐項對照，可能比術語式評分更方便業主與資訊商溝通；不代表能自動判定完整安全狀態。",
+    "mvp": "先做只讀報告樣板，使用測試網域列出已知寄信來源、公開紀錄與需供應商確認的問題，不修改 DNS 或寄信政策。",
+    "test": "擬議測試：請 2 位郵件管理專家審閱 12 組測試設定，再讓 5 位業主說明待確認事項；專家一致同意無危險建議，且至少 4 位業主理解缺漏，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：只讀檢查容易，但多寄信來源的正確判讀和不中斷郵件需要專業合作。",
+    "caveat": "以美國 FTC 說明為基礎，技術可跨地區但服務實作不同；不做滲透測試、不讀私人郵件，不以缺一項紀錄直接指稱已遭入侵。"
+  },
+  {
+    "id": 96,
+    "title": "備份顯示成功但沒試過能否還原",
+    "category": "小企業與數位安全",
+    "audience": "依賴訂單與客戶檔案營運的小商家",
+    "audienceType": "小企業",
+    "scope": "個人",
+    "problem": "平常有備份或同步圖示，卻沒有測試過能否在另一個位置找回完整營運檔案；電腦故障後才需要臨時釐清還原流程。",
+    "evidence": "英國 NCSC 說明勒索軟體、設備失竊或故障都會使資料無法存取，並要求建立備份後確認如何還原及是否包含重要資料。",
+    "sources": [
+      {
+        "title": "Small organisations guide to cyber security — Backing up your data",
+        "publisher": "UK National Cyber Security Centre",
+        "url": "https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security/backing-up-your-data",
+        "published": "2026-04-09",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "雲端備份、外接裝置、作業系統還原工具與 NCSC 指引已提供基本功能。",
+    "gap": "假設：簡單的還原演練紀錄可能揭露只同步卻無適當備份的盲點；無法由一次成功推論災難時一定成功。",
+    "mvp": "用合成營運檔做隔離還原演練表，記錄檔案清單、備份位置、可開啟驗證和耗時；不覆寫正式資料。",
+    "test": "擬議測試：與 3 家小商家各還原 10 份測試檔案；全部內容正確、業主能按表重做，且不影響正式資料，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：可用合成資料測試，但不同備份產品與權限需逐一調整。",
+    "caveat": "來源為英國 2026 年指南；測試環境不能代表完整災難復原。實際遭入侵時要由資訊支援評估乾淨的還原點，不自行覆寫或清除證據。"
+  },
+  {
+    "id": 97,
+    "title": "離職交接漏掉雲端與外包服務權限",
+    "category": "小企業與數位安全",
+    "audience": "頻繁更換兼職或外包人員的小公司",
+    "audienceType": "小企業",
+    "scope": "個人",
+    "problem": "收回公司電腦後，某些雲端資料夾、店鋪後台或共同管理工具的權限可能未同步記錄，交接人難確認收權流程是否完整。",
+    "evidence": "FTC 資料保護指南要求建立離職或調職程序，讓人員不再存取敏感資訊，並將撤銷登入與收回鑰匙、識別證列入離開流程。",
+    "sources": [
+      {
+        "title": "Protecting Personal Information: A Guide for Business",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "published": "2016",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "各服務的使用者管理、身分管理系統與離職清單已有相關功能。",
+    "gap": "假設：讓交接清單連到各服務管理頁並保存覆核結果，可能減少跨平台漏項；不需監看人員行為。",
+    "mvp": "用角色代碼建立服務與權限矩陣，模擬一名人員離開時產生待核對清單，收回動作仍由授權管理者人工執行。",
+    "test": "擬議測試：以 3 家公司各一份去識別權限清單演練；找出所有預埋殘留權限且無一筆誤收其他人必要權限，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：清單可快速做，但需盤點服務並確認真正的權限負責人。",
+    "caveat": "FTC 2016 年資料提供程序原則，不代表目前所有服務的介面或完整合規要求；不做員工監控、績效評分或自動停權，離職原因不需記錄。"
+  },
+  {
+    "id": 98,
+    "title": "挑選數位供應商時安全證據不可比較",
+    "category": "小企業與數位安全",
+    "audience": "準備採購雲端或資訊服務的小公司",
+    "audienceType": "小企業",
+    "scope": "跨地區",
+    "problem": "不同供應商用不同格式描述資安和備援，採購者難看出哪些是有文件可追溯的證據，哪些只是承諾，以及還缺什麼問題。",
+    "evidence": "NIST 2026 年盡職評估指南將 ICT 供應商評估拆成來源、韌性、基礎資安等面向，強調蒐集相關資訊以支援新採購或既有系統決策。",
+    "sources": [
+      {
+        "title": "NIST Cybersecurity Supply Chain Management: Due Diligence Assessment Quick-Start Guide",
+        "publisher": "National Institute of Standards and Technology",
+        "url": "https://www.nist.gov/publications/nist-cybersecurity-supply-chain-management-due-diligence-assessment-quick-start-guide",
+        "published": "2026-07-08",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "NIST 供應鏈評估指南、供應商安全文件及採購問卷已有框架。",
+    "gap": "假設：縮成可負擔的少量問題並標註證據日期，可能讓小企業更容易開始；不能用簡單總分替代專業審查。",
+    "mvp": "針對同一類服務選 3 家供應商，人工整理資料存取、復原安排、事件聯絡方式與公開文件來源，將未知保持為未知。",
+    "test": "擬議測試：邀 5 位小企業採購者和 1 位資安顧問檢閱；至少 4 位能在 10 分鐘內列出三個有依據的待追問項目，且所有結論可追溯來源，才通過。",
+    "feasibility": "需要合作",
+    "effort": "需領域合作",
+    "whyFeasibility": "主觀判斷：表格容易，服務責任邊界、證據有效期與風險判讀需要資安合作。",
+    "caveat": "來源針對 ICT 供應鏈，並非小公司完整採購認證；不以國籍或人員敏感身分做評分，不自動決定採購，也不傳送公司機密。"
+  },
+  {
+    "id": 99,
+    "title": "資安事件發生時找不到處理責任與聯絡方式",
+    "category": "小企業與數位安全",
+    "audience": "只有外包資訊支援的小公司",
+    "audienceType": "小企業",
+    "scope": "個人",
+    "problem": "公司信箱或主要電腦無法使用時，原本存於同一系統的資訊商聯絡方式、負責人與事件紀錄也可能取不到，導致臨場慌亂。",
+    "evidence": "FTC 的資料外洩處理指南要求迅速召集適當專業人員、記錄調查、避免破壞證據，並準備對受影響對象的溝通計畫。",
+    "sources": [
+      {
+        "title": "Data Breach Response: A Guide for Business",
+        "publisher": "Federal Trade Commission",
+        "url": "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
+        "published": "未標示",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "事件應變計畫、外包資訊服務合約與 FTC 指南已有處理架構。",
+    "gap": "假設：一張可離線取得、經核對的聯絡與責任卡，可能縮短找到負責人的時間；不代表能自行處理真正的資安事件。",
+    "mvp": "製作一頁離線應變卡，列負責人、官方或合約支援入口、替代聯絡方式與空白事件時間線，避免放密碼和復原碼。",
+    "test": "擬議測試：與 3 家公司做信箱不可用的桌上演練；每家均能在 5 分鐘內找到正確聯絡人並記錄第一個已確認事實，且沒有清除證據或自行付款步驟，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：聯絡卡容易做，但要與實際資訊支援確認責任和更新頻率。",
+    "caveat": "美國指南的通報法律要求不能直接套用其他地區；原型只做事前準備，不取代事件應變專家或法律顧問，不自動對外通知。"
+  },
+  {
+    "id": 100,
+    "title": "供應商不良零件難回查原始批次",
+    "category": "小企業與數位安全",
+    "audience": "少量多批進貨的小型製造或組裝業者",
+    "audienceType": "小企業",
+    "scope": "跨地區",
+    "problem": "發現一個零件不良時，若只保留品名和供應商發票，難知道同批還有哪些庫存或成品，與供應商溝通也缺少一致批次標記。",
+    "evidence": "NIST 製造業延伸服務文章指出，小型製造商常缺供應鏈專職人員，並強調供應商品質與檢驗文件、異常品處理和批次追溯的重要性。",
+    "sources": [
+      {
+        "title": "8 Ways to Improve Your Supplier Selection Process",
+        "publisher": "National Institute of Standards and Technology / Manufacturing Extension Partnership",
+        "url": "https://www.nist.gov/blogs/manufacturing-innovation-blog/8-ways-improve-your-supplier-selection-process",
+        "published": "2023-05-30",
+        "checked": "2026-10-05"
+      }
+    ],
+    "existing": "庫存／品質管理系統、收貨標籤、供應商批號與檢驗紀錄已有追溯功能。",
+    "gap": "假設：針對少量多批的簡化收貨卡，可能在完整 ERP 以外提供可用起點；實際填寫成本與追溯效益尚未驗證。",
+    "mvp": "只對一種非安全關鍵零件試作收貨標籤，手動連結供應商批號、到貨日、數量、庫位與使用批次，資料不明時保留缺漏。",
+    "test": "擬議測試：與一間小工坊用 10 個模擬批次演練召回範圍查詢；全部受影響批次能在 3 分鐘內找到，未受影響批次不被混入，且每次收貨登錄低於 1 分鐘，才通過。",
+    "feasibility": "中等",
+    "effort": "2–4週",
+    "whyFeasibility": "主觀判斷：限定單一零件可用紙標籤和試算表完成，但需要現場配合保持批次不混放。",
+    "caveat": "來源是美國製造業服務專家的經驗文章，不是需求規模調查；先排除醫材、食品及其他安全關鍵零件，不把原型當作法定召回或品質認證系統。"
+  }
+]
